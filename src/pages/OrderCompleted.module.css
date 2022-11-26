@@ -21,6 +21,7 @@
 }
 .allCategoriesDiv,
 .blogDiv,
+.fAQsDiv,
 .latestNewsDiv {
   position: absolute;
   top: 33.19%;
@@ -28,42 +29,43 @@
   display: inline-block;
 }
 .allCategoriesDiv,
+.fAQsDiv,
 .latestNewsDiv {
   top: 41.54%;
 }
-.allCategoriesDiv {
+.allCategoriesDiv,
+.fAQsDiv {
   top: 49.9%;
+}
+.fAQsDiv {
+  top: 58.25%;
+  cursor: pointer;
 }
 .bookingHistoryDiv,
 .discountsDiv,
-.newestAdditionsDiv {
+.ordersHistoryDiv {
   position: absolute;
-  top: 58.25%;
-  left: 67.03%;
+  top: 41.13%;
+  left: 54.48%;
   display: inline-block;
 }
 .bookingHistoryDiv,
-.discountsDiv {
-  top: 41.13%;
-  left: 54.48%;
-}
-.bookingHistoryDiv {
+.ordersHistoryDiv {
   top: 49.48%;
 }
-.aboutUsDiv,
-.blogDiv1,
-.contactUsDiv,
 .ordersHistoryDiv {
-  position: absolute;
   top: 57.83%;
-  left: 54.48%;
-  display: inline-block;
 }
 .aboutUsDiv,
 .blogDiv1,
 .contactUsDiv {
-  top: 41.34%;
+  position: absolute;
   left: 40.63%;
+  display: inline-block;
+}
+.blogDiv1 {
+  top: 41.34%;
+  cursor: pointer;
 }
 .aboutUsDiv,
 .contactUsDiv {
@@ -159,7 +161,7 @@
 .rectangleDiv3 {
   height: 100%;
   bottom: 0;
-  background-color: var(--color-gray-1200);
+  background-color: var(--color-gray-1300);
 }
 .aetotechsAllRightsReserve {
   position: absolute;
@@ -197,7 +199,7 @@
   right: 0;
   bottom: 0;
   left: 0;
-  color: var(--color-gray-2600);
+  color: var(--color-gray-2700);
 }
 .footerDiv,
 .rectangleIcon {
@@ -345,7 +347,7 @@
   left: 0;
   width: 1920px;
   height: 44px;
-  color: var(--color-gray-700);
+  color: var(--color-gray-800);
   font-family: var(--font-montserrat);
 }
 .blogDiv2,
@@ -380,7 +382,7 @@
 .rectangleDiv5 {
   width: 100%;
   left: 0;
-  border: 2px solid var(--color-gray-1300);
+  border: 2px solid var(--color-gray-1400);
   box-sizing: border-box;
 }
 .groupDiv5,
@@ -512,43 +514,81 @@
   text-align: center;
 }
 .englishDiv1,
+.loginDiv1,
 .uSDDiv1 {
   position: absolute;
   top: 31.82%;
   left: 62.08%;
   display: none;
 }
+.loginDiv1,
 .uSDDiv1 {
   left: 66.67%;
+}
+.loginDiv1 {
+  left: 70.1%;
 }
 .groupIcon2 {
   position: absolute;
   height: 54.55%;
-  width: 8.28%;
+  width: 3.44%;
   top: 20.45%;
   right: 19.38%;
   bottom: 25%;
-  left: 72.34%;
+  left: 77.19%;
   max-width: 100%;
   overflow: hidden;
   max-height: 100%;
 }
-.contactDiv1 {
+.blogDiv3,
+.productsDiv1 {
+  display: inline-block;
+  cursor: pointer;
+}
+.productsDiv1 {
   position: absolute;
   top: 25%;
-  left: 49.02%;
+  left: 28.89%;
   line-height: 20px;
+}
+.blogDiv3 {
+  left: 37.3%;
+}
+.blogDiv3,
+.contactDiv1,
+.shopDiv1 {
+  position: absolute;
+  top: 25%;
+  line-height: 20px;
+}
+.shopDiv1 {
+  left: 42.99%;
+  display: inline-block;
+  cursor: pointer;
+}
+.contactDiv1 {
+  left: 49.02%;
   display: none;
 }
-.groupDiv13 {
+.groupDiv13,
+.hektoB1 {
   position: absolute;
+  cursor: pointer;
+}
+.hektoB1 {
+  top: 7.5%;
+  left: 0;
+  font-size: var(--font-size-11xl);
+  display: inline-block;
+  font-family: var(--font-montserrat);
+}
+.groupDiv13 {
   height: 50%;
   width: 3.65%;
   top: 25%;
   right: 80.54%;
   bottom: 25%;
   left: 15.8%;
-  cursor: pointer;
   color: var(--pink);
 }
 .vectorIcon {
@@ -632,8 +672,9 @@
   left: 539px;
   width: 843px;
   height: 326px;
+  cursor: pointer;
   text-align: center;
-  color: var(--color-gray-3100);
+  color: var(--color-gray-3200);
 }
 .image1174Icon {
   position: absolute;
@@ -646,7 +687,7 @@
 .lineDiv,
 .lineDiv1 {
   left: 461.5px;
-  border-right: 1px solid var(--color-gray-1500);
+  border-right: 1px solid var(--color-gray-1600);
   width: 1px;
   height: 5px;
 }
@@ -667,7 +708,7 @@
 .lineDiv2 {
   top: 750.5px;
   left: 461.5px;
-  border-right: 1px solid var(--color-gray-1500);
+  border-right: 1px solid var(--color-gray-1600);
   width: 1px;
   height: 5px;
 }
@@ -678,7 +719,7 @@
 .lineDiv4,
 .lineDiv5 {
   left: 461.5px;
-  border-right: 1px solid var(--color-gray-1500);
+  border-right: 1px solid var(--color-gray-1600);
   width: 1px;
   height: 5px;
 }
@@ -699,7 +740,7 @@
 .lineDiv6 {
   top: 782.5px;
   left: 461.5px;
-  border-right: 1px solid var(--color-gray-1500);
+  border-right: 1px solid var(--color-gray-1600);
   width: 1px;
   height: 5px;
 }
@@ -710,7 +751,7 @@
 .lineDiv8,
 .lineDiv9 {
   left: 461.5px;
-  border-right: 1px solid var(--color-gray-1500);
+  border-right: 1px solid var(--color-gray-1600);
   width: 1px;
   height: 5px;
 }
@@ -731,7 +772,7 @@
 .lineDiv10 {
   top: 814.5px;
   left: 461.5px;
-  border-right: 1px solid var(--color-gray-1500);
+  border-right: 1px solid var(--color-gray-1600);
   width: 1px;
   height: 5px;
 }
@@ -742,7 +783,7 @@
 .lineDiv12,
 .lineDiv13 {
   left: 461.5px;
-  border-right: 1px solid var(--color-gray-1500);
+  border-right: 1px solid var(--color-gray-1600);
   width: 1px;
   height: 5px;
 }
@@ -763,7 +804,7 @@
 .lineDiv14 {
   top: 846.5px;
   left: 461.5px;
-  border-right: 1px solid var(--color-gray-1500);
+  border-right: 1px solid var(--color-gray-1600);
   width: 1px;
   height: 5px;
 }
@@ -774,7 +815,7 @@
 .lineDiv16,
 .lineDiv17 {
   left: 461.5px;
-  border-right: 1px solid var(--color-gray-1500);
+  border-right: 1px solid var(--color-gray-1600);
   width: 1px;
   height: 5px;
 }
@@ -795,7 +836,7 @@
 .lineDiv18 {
   top: 878.5px;
   left: 461.5px;
-  border-right: 1px solid var(--color-gray-1500);
+  border-right: 1px solid var(--color-gray-1600);
   width: 1px;
   height: 5px;
 }
@@ -806,7 +847,7 @@
 .lineDiv20,
 .lineDiv21 {
   left: 461.5px;
-  border-right: 1px solid var(--color-gray-1500);
+  border-right: 1px solid var(--color-gray-1600);
   width: 1px;
   height: 5px;
 }
@@ -827,7 +868,7 @@
 .lineDiv22 {
   top: 910.5px;
   left: 461.5px;
-  border-right: 1px solid var(--color-gray-1500);
+  border-right: 1px solid var(--color-gray-1600);
   width: 1px;
   height: 5px;
 }
@@ -838,7 +879,7 @@
 .lineDiv24,
 .lineDiv25 {
   left: 461.5px;
-  border-right: 1px solid var(--color-gray-1500);
+  border-right: 1px solid var(--color-gray-1600);
   width: 1px;
   height: 5px;
 }
@@ -859,7 +900,7 @@
 .lineDiv26 {
   top: 942.5px;
   left: 461.5px;
-  border-right: 1px solid var(--color-gray-1500);
+  border-right: 1px solid var(--color-gray-1600);
   width: 1px;
   height: 5px;
 }
@@ -870,7 +911,7 @@
 .lineDiv28,
 .lineDiv29 {
   left: 461.5px;
-  border-right: 1px solid var(--color-gray-1500);
+  border-right: 1px solid var(--color-gray-1600);
   width: 1px;
   height: 5px;
 }
@@ -892,7 +933,7 @@
 .lineDiv30 {
   top: 974.5px;
   left: 461.5px;
-  border-right: 1px solid var(--color-gray-1500);
+  border-right: 1px solid var(--color-gray-1600);
   width: 1px;
   height: 5px;
 }
@@ -900,7 +941,7 @@
 .lineDiv32 {
   top: 982.5px;
   left: 462.5px;
-  border-top: 1px solid var(--color-gray-1500);
+  border-top: 1px solid var(--color-gray-1600);
   width: 5px;
   height: 1px;
 }
@@ -921,7 +962,7 @@
   position: absolute;
   top: 982.5px;
   left: 478.5px;
-  border-top: 1px solid var(--color-gray-1500);
+  border-top: 1px solid var(--color-gray-1600);
   box-sizing: border-box;
   width: 5px;
   height: 1px;
@@ -1015,7 +1056,7 @@
   position: absolute;
   top: 982.5px;
   left: 566.5px;
-  border-top: 1px solid var(--color-gray-1500);
+  border-top: 1px solid var(--color-gray-1600);
   box-sizing: border-box;
   width: 5px;
   height: 1px;
@@ -1109,7 +1150,7 @@
   position: absolute;
   top: 982.5px;
   left: 654.5px;
-  border-top: 1px solid var(--color-gray-1500);
+  border-top: 1px solid var(--color-gray-1600);
   box-sizing: border-box;
   width: 5px;
   height: 1px;
@@ -1203,7 +1244,7 @@
   position: absolute;
   top: 982.5px;
   left: 742.5px;
-  border-top: 1px solid var(--color-gray-1500);
+  border-top: 1px solid var(--color-gray-1600);
   box-sizing: border-box;
   width: 5px;
   height: 1px;
@@ -1297,7 +1338,7 @@
   position: absolute;
   top: 982.5px;
   left: 830.5px;
-  border-top: 1px solid var(--color-gray-1500);
+  border-top: 1px solid var(--color-gray-1600);
   box-sizing: border-box;
   width: 5px;
   height: 1px;
@@ -1391,7 +1432,7 @@
   position: absolute;
   top: 982.5px;
   left: 918.5px;
-  border-top: 1px solid var(--color-gray-1500);
+  border-top: 1px solid var(--color-gray-1600);
   box-sizing: border-box;
   width: 5px;
   height: 1px;
@@ -1484,7 +1525,7 @@
   position: absolute;
   top: 982.5px;
   left: 1006.5px;
-  border-top: 1px solid var(--color-gray-1500);
+  border-top: 1px solid var(--color-gray-1600);
   box-sizing: border-box;
   width: 5px;
   height: 1px;
@@ -1565,7 +1606,7 @@
   position: absolute;
   top: 982.5px;
   left: 1086.5px;
-  border-top: 1px solid var(--color-gray-1500);
+  border-top: 1px solid var(--color-gray-1600);
   box-sizing: border-box;
   width: 5px;
   height: 1px;
@@ -1646,7 +1687,7 @@
   position: absolute;
   top: 982.5px;
   left: 1166.5px;
-  border-top: 1px solid var(--color-gray-1500);
+  border-top: 1px solid var(--color-gray-1600);
   box-sizing: border-box;
   width: 5px;
   height: 1px;
@@ -1727,7 +1768,7 @@
   position: absolute;
   top: 982.5px;
   left: 1246.5px;
-  border-top: 1px solid var(--color-gray-1500);
+  border-top: 1px solid var(--color-gray-1600);
   box-sizing: border-box;
   width: 5px;
   height: 1px;
@@ -1808,7 +1849,7 @@
   position: absolute;
   top: 982.5px;
   left: 1326.5px;
-  border-top: 1px solid var(--color-gray-1500);
+  border-top: 1px solid var(--color-gray-1600);
   box-sizing: border-box;
   width: 5px;
   height: 1px;
@@ -1889,7 +1930,7 @@
   position: absolute;
   top: 982.5px;
   left: 1406.5px;
-  border-top: 1px solid var(--color-gray-1500);
+  border-top: 1px solid var(--color-gray-1600);
   box-sizing: border-box;
   width: 5px;
   height: 1px;
@@ -1987,7 +2028,7 @@
   right: 0.05%;
   bottom: 0;
   left: -0.05%;
-  color: var(--color-gray-2600);
+  color: var(--color-gray-2700);
 }
 .orderCompletedDiv {
   position: relative;

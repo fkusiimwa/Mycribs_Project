@@ -1,6 +1,38 @@
+import { useCallback } from "react";
+import { useNavigate } from "react-router-dom";
 import styles from "./MyAccount.module.css";
 
 const MyAccount = () => {
+  const navigate = useNavigate();
+
+  const onProductsTextClick = useCallback(() => {
+    navigate("/about-us");
+  }, [navigate]);
+
+  const onBlogTextClick = useCallback(() => {
+    navigate("/single-blog");
+  }, [navigate]);
+
+  const onShopTextClick = useCallback(() => {
+    navigate("/contact-us");
+  }, [navigate]);
+
+  const onHektoTextClick = useCallback(() => {
+    navigate("/");
+  }, [navigate]);
+
+  const onFAQsTextClick = useCallback(() => {
+    navigate("/faq");
+  }, [navigate]);
+
+  const onBlogText2Click = useCallback(() => {
+    navigate("/single-blog");
+  }, [navigate]);
+
+  const onDontHaveAnClick = useCallback(() => {
+    navigate("/hecto-demo");
+  }, [navigate]);
+
   return (
     <div className={styles.myAccountDiv}>
       <div className={styles.groupDiv}>
@@ -42,9 +74,16 @@ const MyAccount = () => {
           </div>
           <div className={styles.navBarDiv}>
             <div className={styles.pagesDiv1}>Hostels</div>
-            <div className={styles.productsDiv}>About Us</div>
-            <div className={styles.blogDiv}>{`Blog `}</div>
-            <div className={styles.shopDiv}>Contact</div>
+            <div className={styles.productsDiv} onClick={onProductsTextClick}>
+              About Us
+            </div>
+            <div
+              className={styles.blogDiv}
+              onClick={onBlogTextClick}
+            >{`Blog `}</div>
+            <div className={styles.shopDiv} onClick={onShopTextClick}>
+              Contact
+            </div>
             <div className={styles.contactDiv}>Contact</div>
             <div className={styles.groupDiv3}>
               <div className={styles.rectangleDiv1} />
@@ -52,7 +91,9 @@ const MyAccount = () => {
                 <div className={styles.rectangleDiv2} />
               </div>
             </div>
-            <b className={styles.hektoB}>Mycribs</b>
+            <b className={styles.hektoB} onClick={onHektoTextClick}>
+              Mycribs
+            </b>
             <div className={styles.groupDiv5}>
               <div className={styles.homeDiv1}>Home</div>
             </div>
@@ -77,11 +118,15 @@ const MyAccount = () => {
           <div className={styles.blogDiv1}>Blog</div>
           <div className={styles.latestNewsDiv}>Latest News</div>
           <div className={styles.allCategoriesDiv}>All Categories</div>
-          <div className={styles.newestAdditionsDiv}>Newest Additions</div>
+          <div className={styles.fAQsDiv} onClick={onFAQsTextClick}>
+            FAQs
+          </div>
           <div className={styles.discountsDiv}>Discounts</div>
           <div className={styles.bookingHistoryDiv}>Booking History</div>
           <div className={styles.ordersHistoryDiv}>Orders History</div>
-          <div className={styles.blogDiv2}>Blog</div>
+          <div className={styles.blogDiv2} onClick={onBlogText2Click}>
+            Blog
+          </div>
           <div className={styles.aboutUsDiv}>{`About Us `}</div>
           <div className={styles.contactUsDiv}>Contact Us</div>
           <b className={styles.mycribs}>Mycribs</b>
@@ -123,7 +168,10 @@ const MyAccount = () => {
             Please login using account detail bellow.
           </div>
           <div className={styles.forgotYourPassword}>Forgot your password?</div>
-          <div className={styles.dontHaveAnAccountCreateA}>
+          <div
+            className={styles.dontHaveAnAccountCreateA}
+            onClick={onDontHaveAnClick}
+          >
             <span>Don’t have an Account?</span>
             <span className={styles.createAccountSpan}>Create account</span>
           </div>

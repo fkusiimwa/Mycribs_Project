@@ -1,10 +1,34 @@
+import { useCallback } from "react";
+import { useNavigate } from "react-router-dom";
 import styles from "./NOTFOUND.module.css";
 
 const NOTFOUND = () => {
+  const navigate = useNavigate();
+
+  const onProductsTextClick = useCallback(() => {
+    navigate("/about-us");
+  }, [navigate]);
+
+  const onShopTextClick = useCallback(() => {
+    navigate("/contact-us");
+  }, [navigate]);
+
+  const onGroupContainer5Click = useCallback(() => {
+    navigate("/");
+  }, [navigate]);
+
+  const onFAQsTextClick = useCallback(() => {
+    navigate("/faq");
+  }, [navigate]);
+
+  const onBlogText2Click = useCallback(() => {
+    navigate("/single-blog");
+  }, [navigate]);
+
   return (
     <div className={styles.nOTFOUNDDiv}>
-      <div className={styles.groupDiv}>
-        <div className={styles.groupDiv}>
+      <div className={styles.groupDiv} onClick={onGroupContainer5Click}>
+        <div className={styles.groupDiv1}>
           <img
             className={styles.rectangleIcon}
             alt=""
@@ -38,13 +62,17 @@ const NOTFOUND = () => {
               alt=""
               src="../bxbxphonecall1.svg"
             />
-            <img className={styles.groupIcon} alt="" src="../group-177.svg" />
+            <img className={styles.groupIcon} alt="" src="../group-1712.svg" />
           </div>
           <div className={styles.navBarDiv}>
             <div className={styles.pagesDiv1}>Hostels</div>
-            <div className={styles.productsDiv}>About Us</div>
+            <div className={styles.productsDiv} onClick={onProductsTextClick}>
+              About Us
+            </div>
             <div className={styles.blogDiv}>{`Blog `}</div>
-            <div className={styles.shopDiv}>Cpntact</div>
+            <div className={styles.shopDiv} onClick={onShopTextClick}>
+              Cpntact
+            </div>
             <div className={styles.contactDiv}>Contact</div>
             <div className={styles.groupDiv3}>
               <div className={styles.rectangleDiv1} />
@@ -64,7 +92,7 @@ const NOTFOUND = () => {
             <img
               className={styles.uilsearchIcon}
               alt=""
-              src="../uilsearch11.svg"
+              src="../uilsearch12.svg"
             />
           </div>
         </div>
@@ -77,11 +105,15 @@ const NOTFOUND = () => {
           <div className={styles.blogDiv1}>Blog</div>
           <div className={styles.latestNewsDiv}>Latest News</div>
           <div className={styles.allCategoriesDiv}>All Categories</div>
-          <div className={styles.newestAdditionsDiv}>Newest Additions</div>
+          <div className={styles.fAQsDiv} onClick={onFAQsTextClick}>
+            FAQs
+          </div>
           <div className={styles.discountsDiv}>Discounts</div>
           <div className={styles.bookingHistoryDiv}>Booking History</div>
           <div className={styles.ordersHistoryDiv}>Orders History</div>
-          <div className={styles.blogDiv2}>Blog</div>
+          <div className={styles.blogDiv2} onClick={onBlogText2Click}>
+            Blog
+          </div>
           <div className={styles.aboutUsDiv}>{`About Us `}</div>
           <div className={styles.contactUsDiv}>Contact Us</div>
           <b className={styles.mycribs}>Mycribs</b>
@@ -104,7 +136,7 @@ const NOTFOUND = () => {
               ©Aetotechs - All Rights Reserved
             </div>
           </div>
-          <img className={styles.groupIcon1} alt="" src="../group-20521.svg" />
+          <img className={styles.groupIcon1} alt="" src="../group-20523.svg" />
         </div>
       </div>
       <div className={styles.groupDiv8}>
@@ -114,7 +146,7 @@ const NOTFOUND = () => {
             ©Aetotechs - All Rights Reserved
           </div>
         </div>
-        <img className={styles.groupIcon2} alt="" src="../group-20521.svg" />
+        <img className={styles.groupIcon2} alt="" src="../group-20523.svg" />
       </div>
       <div className={styles.groupDiv10}>
         <div className={styles.groupDiv11}>

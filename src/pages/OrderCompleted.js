@@ -5,8 +5,36 @@ import styles from "./OrderCompleted.module.css";
 const OrderCompleted = () => {
   const navigate = useNavigate();
 
+  const onFAQsTextClick = useCallback(() => {
+    navigate("/faq");
+  }, [navigate]);
+
+  const onBlogText1Click = useCallback(() => {
+    navigate("/single-blog");
+  }, [navigate]);
+
+  const onProductsText1Click = useCallback(() => {
+    navigate("/about-us");
+  }, [navigate]);
+
+  const onBlogText3Click = useCallback(() => {
+    navigate("/single-blog");
+  }, [navigate]);
+
+  const onShopText1Click = useCallback(() => {
+    navigate("/contact-us");
+  }, [navigate]);
+
+  const onHektoText1Click = useCallback(() => {
+    navigate("/");
+  }, [navigate]);
+
   const onGroupContainer11Click = useCallback(() => {
     navigate("/");
+  }, [navigate]);
+
+  const onGroupContainer16Click = useCallback(() => {
+    navigate("/grid-default");
   }, [navigate]);
 
   return (
@@ -19,11 +47,15 @@ const OrderCompleted = () => {
           <div className={styles.blogDiv}>Blog</div>
           <div className={styles.latestNewsDiv}>Latest News</div>
           <div className={styles.allCategoriesDiv}>All Categories</div>
-          <div className={styles.newestAdditionsDiv}>Newest Additions</div>
+          <div className={styles.fAQsDiv} onClick={onFAQsTextClick}>
+            FAQs
+          </div>
           <div className={styles.discountsDiv}>Discounts</div>
           <div className={styles.bookingHistoryDiv}>Booking History</div>
           <div className={styles.ordersHistoryDiv}>Orders History</div>
-          <div className={styles.blogDiv1}>Blog</div>
+          <div className={styles.blogDiv1} onClick={onBlogText1Click}>
+            Blog
+          </div>
           <div className={styles.aboutUsDiv}>{`About Us `}</div>
           <div className={styles.contactUsDiv}>Contact Us</div>
           <b className={styles.mycribs}>Mycribs</b>
@@ -114,7 +146,7 @@ const OrderCompleted = () => {
             <div className={styles.rectangleDiv4} />
             <div className={styles.englishDiv1}>English</div>
             <div className={styles.uSDDiv1}>USD</div>
-            <div className={styles.loginDiv}>Login</div>
+            <div className={styles.loginDiv1}>Login</div>
             <div className={styles.wishlistDiv}>Wishlist</div>
             <div className={styles.mhhasanulgmailcomDiv}>
               mycribs@aetotechs.com
@@ -134,9 +166,16 @@ const OrderCompleted = () => {
           </div>
           <div className={styles.navBarDiv}>
             <div className={styles.pagesDiv2}>Hostels</div>
-            <div className={styles.productsDiv}>About Us</div>
-            <div className={styles.blogDiv2}>{`Blog `}</div>
-            <div className={styles.shopDiv}>Contact</div>
+            <div className={styles.productsDiv1} onClick={onProductsText1Click}>
+              About Us
+            </div>
+            <div
+              className={styles.blogDiv3}
+              onClick={onBlogText3Click}
+            >{`Blog `}</div>
+            <div className={styles.shopDiv1} onClick={onShopText1Click}>
+              Contact
+            </div>
             <div className={styles.contactDiv1}>Contact</div>
             <div className={styles.groupDiv5}>
               <div className={styles.rectangleDiv5} />
@@ -144,7 +183,9 @@ const OrderCompleted = () => {
                 <div className={styles.rectangleDiv6} />
               </div>
             </div>
-            <b className={styles.hektoB}>Mycribs</b>
+            <b className={styles.hektoB1} onClick={onHektoText1Click}>
+              Mycribs
+            </b>
             <div
               className={styles.groupDiv13}
               onClick={onGroupContainer11Click}
@@ -164,7 +205,7 @@ const OrderCompleted = () => {
           </div>
         </div>
       </div>
-      <div className={styles.groupDiv14}>
+      <div className={styles.groupDiv14} onClick={onGroupContainer16Click}>
         <img className={styles.vectorIcon} alt="" src="../vector-161.svg" />
         <div className={styles.thankYouForBookingForARe}>
           <p

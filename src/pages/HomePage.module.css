@@ -9,28 +9,29 @@
   background-color: var(--violet);
 }
 .englishDiv,
+.loginDiv,
 .uSDDiv {
   position: absolute;
   top: 31.82%;
   left: 62.08%;
   display: none;
 }
+.loginDiv,
 .uSDDiv {
   left: 66.67%;
 }
+.loginDiv {
+  left: 70.1%;
+  display: inline-block;
+  cursor: pointer;
+}
 .div,
-.loginDiv,
 .mhhasanulgmailcomDiv,
 .wishlistDiv {
   position: absolute;
   top: 31.82%;
-  left: 70.1%;
-  display: inline-block;
-}
-.div,
-.mhhasanulgmailcomDiv,
-.wishlistDiv {
   left: 74.01%;
+  display: inline-block;
 }
 .div,
 .mhhasanulgmailcomDiv {
@@ -74,35 +75,40 @@
   left: 0;
   width: 1920px;
   height: 44px;
-  color: var(--color-gray-700);
+  color: var(--color-gray-800);
 }
 .pagesDiv {
   position: absolute;
   top: 25%;
   left: 22.43%;
   line-height: 20px;
+}
+.blogDiv,
+.pagesDiv,
+.productsDiv {
   display: inline-block;
   cursor: pointer;
 }
 .productsDiv {
+  position: absolute;
+  top: 25%;
   left: 28.89%;
+  line-height: 20px;
+}
+.blogDiv {
+  left: 37.3%;
 }
 .blogDiv,
 .contactDiv,
-.productsDiv,
 .shopDiv {
   position: absolute;
   top: 25%;
   line-height: 20px;
-  display: inline-block;
 }
-.blogDiv {
-  left: 37.3%;
-  cursor: pointer;
-}
-.contactDiv,
 .shopDiv {
   left: 42.99%;
+  display: inline-block;
+  cursor: pointer;
 }
 .contactDiv {
   left: 49.02%;
@@ -111,7 +117,7 @@
 .rectangleDiv1 {
   width: 100%;
   left: 0;
-  border: 2px solid var(--color-gray-1300);
+  border: 2px solid var(--color-gray-1400);
   box-sizing: border-box;
 }
 .groupDiv,
@@ -286,7 +292,7 @@
 .rectangleDiv6 {
   top: 0;
   left: 0;
-  border-radius: var(--br-3xs);
+  border-radius: 4px;
   background-color: var(--pink);
   width: 163px;
   height: 50px;
@@ -300,14 +306,14 @@
 }
 .shopNowButton {
   position: absolute;
-  top: 478px;
+  top: 509px;
   left: 375px;
   width: 163px;
   height: 50px;
   cursor: pointer;
   font-size: var(--font-size-xl);
 }
-.hostelsTailoredForYourBest {
+.hostelsTailoredToYourBest {
   position: absolute;
   top: 40px;
   left: 0;
@@ -324,7 +330,7 @@
   display: inline-block;
 }
 .dontSettleForLessGetAH {
-  top: 192px;
+  top: 227px;
   left: 0;
   color: var(--sub-text-color);
   white-space: pre-wrap;
@@ -338,8 +344,8 @@
   position: absolute;
   top: 203px;
   left: 375px;
-  width: 710px;
-  height: 248px;
+  width: 684px;
+  height: 283px;
   font-size: var(--paragraph-text-size);
   color: var(--color-black);
   font-family: var(--paragraph-text);
@@ -385,7 +391,7 @@
 .rectangleDiv8 {
   height: 65.37%;
   bottom: 34.63%;
-  background-color: var(--color-gray-400);
+  background-color: var(--color-gray-500);
 }
 .cantileverChairB {
   position: absolute;
@@ -542,7 +548,7 @@
 .rectangleDiv14 {
   height: 65.37%;
   bottom: 34.63%;
-  background-color: var(--color-gray-200);
+  background-color: var(--color-gray-300);
 }
 .cantileverChairB1 {
   position: absolute;
@@ -802,7 +808,7 @@
   letter-spacing: 0.02em;
   line-height: 132%;
   font-weight: 500;
-  color: var(--color-gray-2200);
+  color: var(--color-gray-2300);
   display: inline-block;
 }
 .aQuietOrLivelyNeighbourhoo,
@@ -1221,6 +1227,7 @@
 }
 .allCategoriesDiv,
 .blogDiv1,
+.fAQsDiv,
 .latestNewsDiv {
   position: absolute;
   top: 33.19%;
@@ -1228,42 +1235,43 @@
   display: inline-block;
 }
 .allCategoriesDiv,
+.fAQsDiv,
 .latestNewsDiv {
   top: 41.54%;
 }
-.allCategoriesDiv {
+.allCategoriesDiv,
+.fAQsDiv {
   top: 49.9%;
+}
+.fAQsDiv {
+  top: 58.25%;
+  cursor: pointer;
 }
 .bookingHistoryDiv,
 .discountsDiv,
-.newestAdditionsDiv {
+.ordersHistoryDiv {
   position: absolute;
-  top: 58.25%;
-  left: 67.03%;
+  top: 41.13%;
+  left: 54.48%;
   display: inline-block;
 }
 .bookingHistoryDiv,
-.discountsDiv {
-  top: 41.13%;
-  left: 54.48%;
-}
-.bookingHistoryDiv {
+.ordersHistoryDiv {
   top: 49.48%;
 }
-.aboutUsDiv,
-.blogDiv2,
-.contactUsDiv,
 .ordersHistoryDiv {
-  position: absolute;
   top: 57.83%;
-  left: 54.48%;
-  display: inline-block;
 }
 .aboutUsDiv,
 .blogDiv2,
 .contactUsDiv {
-  top: 41.34%;
+  position: absolute;
   left: 40.63%;
+  display: inline-block;
+}
+.blogDiv2 {
+  top: 41.34%;
+  cursor: pointer;
 }
 .aboutUsDiv,
 .contactUsDiv {
@@ -1359,7 +1367,7 @@
 .rectangleDiv35 {
   height: 100%;
   bottom: 0;
-  background-color: var(--color-gray-1200);
+  background-color: var(--color-gray-1300);
 }
 .aetotechsAllRightsReserve {
   position: absolute;
@@ -1388,7 +1396,7 @@
   right: 0;
   bottom: 0;
   left: 0;
-  color: var(--color-gray-2600);
+  color: var(--color-gray-2700);
 }
 .footerDiv {
   position: absolute;
@@ -1674,7 +1682,7 @@
   right: 4.44%;
   bottom: 27.14%;
   left: 4.07%;
-  background-color: var(--color-gray-500);
+  background-color: var(--color-gray-600);
 }
 .trendingProductsDiv {
   position: absolute;
@@ -2163,7 +2171,7 @@
   bottom: 48.28%;
   left: 0;
   border-radius: var(--br-sm);
-  background-color: var(--color-gray-1200);
+  background-color: var(--color-gray-1300);
 }
 .topEsssentialTrendsIn2021 {
   position: absolute;
@@ -2236,7 +2244,7 @@
 }
 .moreOffThisLessHelloSamla {
   top: 71.81%;
-  color: var(--color-gray-3500);
+  color: var(--color-gray-3600);
 }
 .readMoreDiv {
   top: 86.82%;
@@ -2262,7 +2270,7 @@
 .frameDiv {
   height: 51.72%;
   bottom: 48.28%;
-  border-radius: var(--br-lg);
+  border-radius: var(--br-lg) var(--br-lg) 0 0;
 }
 .leatestBlogDiv {
   position: absolute;
@@ -2471,6 +2479,7 @@
   max-width: 100%;
   max-height: 100%;
   object-fit: cover;
+  display: none;
 }
 .frameDiv3 {
   height: 88.22%;
@@ -2479,7 +2488,11 @@
   right: 0;
   bottom: 11.78%;
   left: 0;
-  background-color: var(--color-gray-400);
+  border-radius: var(--br-2xl);
+  background-image: url(../../public/frame-1@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
   color: var(--bg-shade);
 }
 .image1166Icon,
@@ -2550,28 +2563,21 @@
   left: 378px;
   cursor: pointer;
 }
-.image1168Icon7,
-.image23Icon2 {
+.frameDiv4 {
   position: absolute;
-  object-fit: cover;
-}
-.image1168Icon7 {
-  height: 82.31%;
-  width: 61.62%;
-  top: 14.44%;
-  right: 19.19%;
-  bottom: 3.25%;
-  left: 19.19%;
-  max-width: 100%;
-  overflow: hidden;
-  max-height: 100%;
-  display: none;
-}
-.image23Icon2 {
+  height: 88.22%;
+  width: 100%;
   top: 0;
-  left: 54px;
-  width: 267px;
-  height: 277px;
+  right: 0;
+  bottom: 11.78%;
+  left: 0;
+  border-radius: var(--br-2xl);
+  overflow: hidden;
+  background-image: url(../../public/frame-12@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  color: var(--bg-shade);
 }
 .component10Div {
   position: absolute;
@@ -2581,13 +2587,21 @@
   height: 306px;
   font-size: var(--font-size-3xs);
 }
-.image32Icon7 {
+.frameDiv5 {
   position: absolute;
-  top: 13px;
-  left: 36px;
-  width: 303px;
-  height: 264px;
-  object-fit: cover;
+  height: 88.22%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 11.78%;
+  left: 0;
+  border-radius: var(--br-2xl);
+  overflow: hidden;
+  background-image: url(../../public/frame-13@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  color: var(--bg-shade);
 }
 .component11Div {
   position: absolute;
@@ -2633,7 +2647,7 @@
   top: 0;
   right: 1.37%;
   bottom: 11.78%;
-  background-color: var(--color-gray-400);
+  background-color: var(--color-gray-500);
   color: var(--bg-shade);
 }
 .image3Icon6,
@@ -2656,6 +2670,7 @@
 .image3Icon6 {
   top: 16px;
   left: 5px;
+  border-radius: var(--br-2xl);
   width: 360px;
   height: 261px;
 }
@@ -2697,28 +2712,27 @@
   overflow: hidden;
   max-height: 100%;
 }
-.image15Icon4 {
+.image15Div {
   position: absolute;
   top: 25px;
   left: 68px;
   width: 245px;
   height: 245px;
-  object-fit: cover;
 }
 .saleDiv4 {
   position: absolute;
-  top: 19.9px;
-  left: 0;
-  display: inline-block;
+  top: 25.71px;
+  left: 27px;
+  display: none;
   transform: rotate(-18.12deg);
   transform-origin: 0 0;
 }
 .groupDiv69 {
   position: absolute;
-  top: 30.8px;
-  left: 45px;
-  width: 66.11px;
-  height: 36.06px;
+  top: 25px;
+  left: 18px;
+  width: 0;
+  height: 0;
 }
 .uilheartAltIcon5,
 .uilsearchPlusIcon5 {
@@ -2750,8 +2764,12 @@
   right: 0;
   bottom: 11.78%;
   left: 0;
-  background-color: var(--white);
+  border-radius: var(--br-2xl);
   overflow: hidden;
+  background-image: url(../../public/frame-14@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
   color: var(--bg-shade);
 }
 .leatestProductDiv {
@@ -2770,7 +2788,7 @@
   right: 59.93%;
   bottom: 0;
   left: 0;
-  background-color: var(--color-gray-500);
+  background-color: var(--color-gray-600);
 }
 .div27,
 .executiveSeatChair {
@@ -2856,7 +2874,7 @@
   top: 0;
   right: 60.07%;
   bottom: 0;
-  background-color: var(--color-gray-500);
+  background-color: var(--color-gray-600);
 }
 .div28 {
   top: 105%;

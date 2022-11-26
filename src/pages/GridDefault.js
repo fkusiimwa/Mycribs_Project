@@ -17,8 +17,32 @@ const GridDefault = () => {
     navigate("/product-details");
   }, [navigate]);
 
+  const onFAQsTextClick = useCallback(() => {
+    navigate("/faq");
+  }, [navigate]);
+
+  const onBlogText1Click = useCallback(() => {
+    navigate("/single-blog");
+  }, [navigate]);
+
   const onPagesText2Click = useCallback(() => {
     navigate("/shop-list");
+  }, [navigate]);
+
+  const onProductsTextClick = useCallback(() => {
+    navigate("/about-us");
+  }, [navigate]);
+
+  const onBlogText2Click = useCallback(() => {
+    navigate("/single-blog");
+  }, [navigate]);
+
+  const onShopTextClick = useCallback(() => {
+    navigate("/contact-us");
+  }, [navigate]);
+
+  const onHektoTextClick = useCallback(() => {
+    navigate("/");
   }, [navigate]);
 
   const onGroupContainer46Click = useCallback(() => {
@@ -67,7 +91,7 @@ const GridDefault = () => {
             <img
               className={styles.akarIconschevronDown}
               alt=""
-              src="../akariconschevrondown13.svg"
+              src="../akariconschevrondown14.svg"
             />
             <div className={styles.bestMatchDiv}>Location</div>
           </div>
@@ -160,7 +184,7 @@ const GridDefault = () => {
           alt=""
           src="../image-1172@2x.png"
         />
-        <img className={styles.image9Icon1} alt="" src="../image-95@2x.png" />
+        <img className={styles.image9Icon} alt="" src="../image-95@2x.png" />
         <img className={styles.purepng1Icon} alt="" src="../purepng-1@2x.png" />
         <img
           className={styles.czNmcy1wcml2YXRlL3Jhd3BpeGVsX2Icon}
@@ -168,7 +192,7 @@ const GridDefault = () => {
           src="../cznmcy1wcml2yxrll3jhd3bpegvsx2ltywdlcy93zwjzaxrlx2nvbnrlbnqvcgytczczlxbhas0xntgta2fuyxrlltaxlnbuzw-1@2x.png"
         />
         <img
-          className={styles.image1173Icon1}
+          className={styles.image1173Icon}
           alt=""
           src="../image-1173@2x.png"
         />
@@ -214,7 +238,7 @@ const GridDefault = () => {
           alt=""
           src="../image-1172@2x.png"
         />
-        <img className={styles.image9Icon1} alt="" src="../image-95@2x.png" />
+        <img className={styles.image9Icon} alt="" src="../image-95@2x.png" />
         <img className={styles.purepng1Icon} alt="" src="../purepng-1@2x.png" />
         <img
           className={styles.czNmcy1wcml2YXRlL3Jhd3BpeGVsX2Icon}
@@ -264,7 +288,7 @@ const GridDefault = () => {
           alt=""
           src="../image-1172@2x.png"
         />
-        <img className={styles.image9Icon1} alt="" src="../image-95@2x.png" />
+        <img className={styles.image9Icon} alt="" src="../image-95@2x.png" />
         <img className={styles.purepng1Icon} alt="" src="../purepng-1@2x.png" />
         <img
           className={styles.czNmcy1wcml2YXRlL3Jhd3BpeGVsX2Icon}
@@ -314,7 +338,7 @@ const GridDefault = () => {
           alt=""
           src="../image-1172@2x.png"
         />
-        <img className={styles.image9Icon1} alt="" src="../image-95@2x.png" />
+        <img className={styles.image9Icon} alt="" src="../image-95@2x.png" />
         <img className={styles.purepng1Icon} alt="" src="../purepng-1@2x.png" />
         <img
           className={styles.czNmcy1wcml2YXRlL3Jhd3BpeGVsX2Icon}
@@ -364,7 +388,7 @@ const GridDefault = () => {
           alt=""
           src="../image-1172@2x.png"
         />
-        <img className={styles.image9Icon1} alt="" src="../image-95@2x.png" />
+        <img className={styles.image9Icon} alt="" src="../image-95@2x.png" />
         <img className={styles.purepng1Icon} alt="" src="../purepng-1@2x.png" />
         <img
           className={styles.czNmcy1wcml2YXRlL3Jhd3BpeGVsX2Icon5}
@@ -414,7 +438,7 @@ const GridDefault = () => {
           alt=""
           src="../image-1172@2x.png"
         />
-        <img className={styles.image9Icon1} alt="" src="../image-95@2x.png" />
+        <img className={styles.image9Icon} alt="" src="../image-95@2x.png" />
         <img className={styles.purepng1Icon} alt="" src="../purepng-1@2x.png" />
         <img
           className={styles.czNmcy1wcml2YXRlL3Jhd3BpeGVsX2Icon}
@@ -464,7 +488,7 @@ const GridDefault = () => {
           alt=""
           src="../image-1172@2x.png"
         />
-        <img className={styles.image9Icon1} alt="" src="../image-95@2x.png" />
+        <img className={styles.image9Icon} alt="" src="../image-95@2x.png" />
         <img className={styles.purepng1Icon} alt="" src="../purepng-1@2x.png" />
         <img
           className={styles.czNmcy1wcml2YXRlL3Jhd3BpeGVsX2Icon}
@@ -514,7 +538,7 @@ const GridDefault = () => {
           alt=""
           src="../image-1172@2x.png"
         />
-        <img className={styles.image9Icon1} alt="" src="../image-95@2x.png" />
+        <img className={styles.image9Icon} alt="" src="../image-95@2x.png" />
         <img
           className={styles.purepng1Icon8}
           alt=""
@@ -568,7 +592,7 @@ const GridDefault = () => {
           alt=""
           src="../image-1172@2x.png"
         />
-        <img className={styles.image9Icon1} alt="" src="../image-95@2x.png" />
+        <img className={styles.image9Icon} alt="" src="../image-95@2x.png" />
         <img className={styles.purepng1Icon} alt="" src="../purepng-1@2x.png" />
         <img
           className={styles.czNmcy1wcml2YXRlL3Jhd3BpeGVsX2Icon}
@@ -618,7 +642,7 @@ const GridDefault = () => {
           alt=""
           src="../image-1172@2x.png"
         />
-        <img className={styles.image9Icon1} alt="" src="../image-95@2x.png" />
+        <img className={styles.image9Icon} alt="" src="../image-95@2x.png" />
         <img className={styles.purepng1Icon} alt="" src="../purepng-1@2x.png" />
         <img
           className={styles.czNmcy1wcml2YXRlL3Jhd3BpeGVsX2Icon}
@@ -680,11 +704,15 @@ const GridDefault = () => {
           <div className={styles.blogDiv}>Blog</div>
           <div className={styles.latestNewsDiv}>Latest News</div>
           <div className={styles.allCategoriesDiv}>All Categories</div>
-          <div className={styles.newestAdditionsDiv}>Newest Additions</div>
+          <div className={styles.fAQsDiv} onClick={onFAQsTextClick}>
+            FAQs
+          </div>
           <div className={styles.discountsDiv}>Discounts</div>
           <div className={styles.bookingHistoryDiv}>Booking History</div>
           <div className={styles.ordersHistoryDiv}>Orders History</div>
-          <div className={styles.blogDiv1}>Blog</div>
+          <div className={styles.blogDiv1} onClick={onBlogText1Click}>
+            Blog
+          </div>
           <div className={styles.aboutUsDiv}>{`About Us `}</div>
           <div className={styles.contactUsDiv}>Contact Us</div>
           <b className={styles.mycribs}>Mycribs</b>
@@ -707,7 +735,7 @@ const GridDefault = () => {
               ©Aetotechs - All Rights Reserved
             </div>
           </div>
-          <img className={styles.groupIcon24} alt="" src="../group-20527.svg" />
+          <img className={styles.groupIcon24} alt="" src="../group-20529.svg" />
         </div>
       </div>
       <div className={styles.headingBarDiv}>
@@ -721,22 +749,29 @@ const GridDefault = () => {
         <img
           className={styles.uilenvelopeAltIcon}
           alt=""
-          src="../uilenvelopealt13.svg"
+          src="../uilenvelopealt14.svg"
         />
         <img
           className={styles.bxbxPhoneCallIcon}
           alt=""
           src="../bxbxphonecall4.svg"
         />
-        <img className={styles.groupIcon25} alt="" src="../group-174.svg" />
+        <img className={styles.groupIcon25} alt="" src="../group-176.svg" />
       </div>
       <div className={styles.navBarDiv}>
         <div className={styles.pagesDiv2} onClick={onPagesText2Click}>
           Hostels
         </div>
-        <div className={styles.productsDiv}>About Us</div>
-        <div className={styles.blogDiv2}>{`Blog `}</div>
-        <div className={styles.shopDiv}>Contact</div>
+        <div className={styles.productsDiv} onClick={onProductsTextClick}>
+          About Us
+        </div>
+        <div
+          className={styles.blogDiv2}
+          onClick={onBlogText2Click}
+        >{`Blog `}</div>
+        <div className={styles.shopDiv} onClick={onShopTextClick}>
+          Contact
+        </div>
         <div className={styles.contactDiv}>Contact</div>
         <div className={styles.groupDiv44}>
           <div className={styles.rectangleDiv16} />
@@ -744,7 +779,9 @@ const GridDefault = () => {
             <div className={styles.rectangleDiv17} />
           </div>
         </div>
-        <b className={styles.hektoB}>Mycribs</b>
+        <b className={styles.hektoB} onClick={onHektoTextClick}>
+          Mycribs
+        </b>
         <div className={styles.groupDiv46} onClick={onGroupContainer46Click}>
           <div className={styles.homeDiv1}>Home</div>
         </div>
@@ -753,7 +790,7 @@ const GridDefault = () => {
           alt=""
           src="../akariconschevrondown.svg"
         />
-        <img className={styles.uilsearchIcon} alt="" src="../uilsearch15.svg" />
+        <img className={styles.uilsearchIcon} alt="" src="../uilsearch16.svg" />
       </div>
       <img className={styles.image1174Icon} alt="" src="../image-1174@2x.png" />
     </div>

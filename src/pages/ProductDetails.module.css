@@ -29,6 +29,7 @@
 }
 .allCategoriesDiv,
 .blogDiv,
+.fAQsDiv,
 .latestNewsDiv {
   position: absolute;
   top: 33.19%;
@@ -36,42 +37,43 @@
   display: inline-block;
 }
 .allCategoriesDiv,
+.fAQsDiv,
 .latestNewsDiv {
   top: 41.54%;
 }
-.allCategoriesDiv {
+.allCategoriesDiv,
+.fAQsDiv {
   top: 49.9%;
+}
+.fAQsDiv {
+  top: 58.25%;
+  cursor: pointer;
 }
 .bookingHistoryDiv,
 .discountsDiv,
-.newestAdditionsDiv {
+.ordersHistoryDiv {
   position: absolute;
-  top: 58.25%;
-  left: 67.03%;
+  top: 41.13%;
+  left: 54.48%;
   display: inline-block;
 }
 .bookingHistoryDiv,
-.discountsDiv {
-  top: 41.13%;
-  left: 54.48%;
-}
-.bookingHistoryDiv {
+.ordersHistoryDiv {
   top: 49.48%;
 }
-.aboutUsDiv,
-.blogDiv1,
-.contactUsDiv,
 .ordersHistoryDiv {
-  position: absolute;
   top: 57.83%;
-  left: 54.48%;
-  display: inline-block;
 }
 .aboutUsDiv,
 .blogDiv1,
 .contactUsDiv {
-  top: 41.34%;
+  position: absolute;
   left: 40.63%;
+  display: inline-block;
+}
+.blogDiv1 {
+  top: 41.34%;
+  cursor: pointer;
 }
 .aboutUsDiv,
 .contactUsDiv {
@@ -167,7 +169,7 @@
 .rectangleDiv4 {
   height: 100%;
   bottom: 0;
-  background-color: var(--color-gray-1200);
+  background-color: var(--color-gray-1300);
 }
 .aetotechsAllRightsReserve {
   position: absolute;
@@ -205,7 +207,7 @@
   right: 0;
   bottom: 0;
   left: 0;
-  color: var(--color-gray-2600);
+  color: var(--color-gray-2700);
 }
 .footerDiv,
 .rectangleIcon {
@@ -347,35 +349,41 @@
   width: 1920px;
   height: 44px;
   text-align: left;
-  color: var(--color-gray-700);
+  color: var(--color-gray-800);
   font-family: var(--font-montserrat);
 }
 .pagesDiv2 {
+  position: absolute;
+  top: 25%;
   left: 22.43%;
+  line-height: 20px;
+}
+.blogDiv2,
+.pagesDiv2,
+.productsDiv {
+  display: inline-block;
   cursor: pointer;
+}
+.productsDiv {
+  position: absolute;
+  top: 25%;
+  left: 28.89%;
+  line-height: 20px;
+}
+.blogDiv2 {
+  left: 37.3%;
 }
 .blogDiv2,
 .contactDiv,
-.pagesDiv2,
-.productsDiv,
 .shopDiv {
   position: absolute;
   top: 25%;
   line-height: 20px;
-  display: inline-block;
 }
-.productsDiv {
-  left: 28.89%;
-  cursor: pointer;
-}
-.blogDiv2,
-.contactDiv,
-.shopDiv {
-  left: 37.3%;
-}
-.contactDiv,
 .shopDiv {
   left: 42.99%;
+  display: inline-block;
+  cursor: pointer;
 }
 .contactDiv {
   left: 49.02%;
@@ -384,7 +392,7 @@
 .rectangleDiv6 {
   width: 100%;
   left: 0;
-  border: 2px solid var(--color-gray-1300);
+  border: 2px solid var(--color-gray-1400);
   box-sizing: border-box;
 }
 .groupDiv3,
@@ -421,6 +429,7 @@
   top: 7.5%;
   font-size: var(--font-size-11xl);
   font-family: var(--font-montserrat);
+  cursor: pointer;
 }
 .homeDiv1 {
   top: 0;
@@ -742,7 +751,7 @@
   top: 750px;
   left: 975px;
   line-height: 29px;
-  color: var(--color-gray-2100);
+  color: var(--color-gray-2200);
   display: inline-block;
   width: 549px;
   height: 45px;
@@ -761,7 +770,7 @@
   top: 1561px;
   left: 405px;
   line-height: 29px;
-  color: var(--color-gray-2100);
+  color: var(--color-gray-2200);
   display: inline-block;
 }
 .aliquamDisVulputateVulputat2,
@@ -908,7 +917,7 @@
   right: 0;
   bottom: 0;
   left: 0;
-  color: var(--color-gray-2600);
+  color: var(--color-gray-2700);
   font-family: var(--paragraph-text);
 }
 .productDetailsDiv {

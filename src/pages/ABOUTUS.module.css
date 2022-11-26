@@ -2,10 +2,8 @@
   position: absolute;
   top: 0;
   left: 0;
-  width:100%; 
-  /* 1920px; */
-  height: 100%; 
-   /* 286px; */
+  width: 1920px;
+  height: 286px;
 }
 .div,
 .div1 {
@@ -154,6 +152,7 @@
   left: 975px;
   width: 145px;
   height: 44px;
+  cursor: pointer;
   font-size: var(--font-size-3xl);
   color: var(--white);
   font-family: var(--paragraph-text);
@@ -419,6 +418,7 @@
 }
 .allCategoriesDiv,
 .blogDiv,
+.fAQsDiv,
 .latestNewsDiv {
   position: absolute;
   top: 33.19%;
@@ -426,42 +426,43 @@
   display: inline-block;
 }
 .allCategoriesDiv,
+.fAQsDiv,
 .latestNewsDiv {
   top: 41.54%;
 }
-.allCategoriesDiv {
+.allCategoriesDiv,
+.fAQsDiv {
   top: 49.9%;
+}
+.fAQsDiv {
+  top: 58.25%;
+  cursor: pointer;
 }
 .bookingHistoryDiv,
 .discountsDiv,
-.newestAdditionsDiv {
+.ordersHistoryDiv {
   position: absolute;
-  top: 58.25%;
-  left: 67.03%;
+  top: 41.13%;
+  left: 54.48%;
   display: inline-block;
 }
 .bookingHistoryDiv,
-.discountsDiv {
-  top: 41.13%;
-  left: 54.48%;
-}
-.bookingHistoryDiv {
+.ordersHistoryDiv {
   top: 49.48%;
 }
-.aboutUsDiv1,
-.blogDiv1,
-.contactUsDiv1,
 .ordersHistoryDiv {
-  position: absolute;
   top: 57.83%;
-  left: 54.48%;
-  display: inline-block;
 }
 .aboutUsDiv1,
 .blogDiv1,
 .contactUsDiv1 {
-  top: 41.34%;
+  position: absolute;
   left: 40.63%;
+  display: inline-block;
+}
+.blogDiv1 {
+  top: 41.34%;
+  cursor: pointer;
 }
 .aboutUsDiv1,
 .contactUsDiv1 {
@@ -557,7 +558,7 @@
 .rectangleDiv10 {
   height: 100%;
   bottom: 0;
-  background-color: var(--color-gray-1200);
+  background-color: var(--color-gray-1300);
 }
 .aetotechsAllRightsReserve {
   position: absolute;
@@ -589,7 +590,7 @@
   top: 90.04%;
   right: 0;
   bottom: 0;
-  color: var(--color-gray-2600);
+  color: var(--color-gray-2700);
 }
 .footerDiv {
   top: 2434px;
@@ -616,7 +617,7 @@
 .groupDiv26 {
   height: 1.79%;
   top: 98.21%;
-  color: var(--color-gray-2600);
+  color: var(--color-gray-2700);
   font-family: var(--paragraph-text);
 }
 .rectangleDiv12 {
@@ -690,13 +691,10 @@
   left: 0;
   width: 1920px;
   height: 44px;
-  color: var(--color-gray-700);
+  color: var(--color-gray-800);
 }
-.blogDiv2,
-.contactDiv,
 .pagesDiv2,
-.productsDiv,
-.shopDiv {
+.productsDiv {
   position: absolute;
   top: 25%;
   line-height: 20px;
@@ -706,20 +704,24 @@
   left: 22.43%;
   cursor: pointer;
 }
-.blogDiv2,
-.contactDiv,
-.productsDiv,
-.shopDiv {
+.productsDiv {
   left: 28.89%;
 }
+.blogDiv2 {
+  left: 37.3%;
+  display: inline-block;
+}
 .blogDiv2,
 .contactDiv,
 .shopDiv {
-  left: 37.3%;
+  position: absolute;
+  top: 25%;
+  line-height: 20px;
 }
-.contactDiv,
 .shopDiv {
   left: 42.99%;
+  display: inline-block;
+  cursor: pointer;
 }
 .contactDiv {
   left: 49.02%;
@@ -728,7 +730,7 @@
 .rectangleDiv13 {
   width: 100%;
   left: 0;
-  border: 2px solid var(--color-gray-1300);
+  border: 2px solid var(--color-gray-1400);
   box-sizing: border-box;
 }
 .groupDiv28,
@@ -765,6 +767,7 @@
   top: 7.5%;
   font-size: var(--font-size-11xl);
   font-family: var(--font-montserrat);
+  cursor: pointer;
 }
 .homeDiv1 {
   top: 0;

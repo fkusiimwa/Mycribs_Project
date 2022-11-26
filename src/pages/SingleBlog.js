@@ -1,7 +1,23 @@
+import { useCallback } from "react";
+import { useNavigate } from "react-router-dom";
 import NavBar from "../components/NavBar";
 import styles from "./SingleBlog.module.css";
 
 const SingleBlog = () => {
+  const navigate = useNavigate();
+
+  const onFAQsTextClick = useCallback(() => {
+    navigate("/faq");
+  }, [navigate]);
+
+  const onBlogText3Click = useCallback(() => {
+    navigate("/single-blog");
+  }, [navigate]);
+
+  const onAboutUsTextClick = useCallback(() => {
+    navigate("/about-us");
+  }, [navigate]);
+
   return (
     <div className={styles.singleBlogDiv}>
       <div className={styles.groupDiv}>
@@ -48,12 +64,19 @@ const SingleBlog = () => {
           <div className={styles.blogDiv1}>Blog</div>
           <div className={styles.latestNewsDiv}>Latest News</div>
           <div className={styles.allCategoriesDiv}>All Categories</div>
-          <div className={styles.newestAdditionsDiv}>Newest Additions</div>
+          <div className={styles.fAQsDiv} onClick={onFAQsTextClick}>
+            FAQs
+          </div>
           <div className={styles.discountsDiv}>Discounts</div>
           <div className={styles.bookingHistoryDiv}>Booking History</div>
           <div className={styles.ordersHistoryDiv}>Orders History</div>
-          <div className={styles.blogDiv2}>Blog</div>
-          <div className={styles.aboutUsDiv}>{`About Us `}</div>
+          <div className={styles.blogDiv2} onClick={onBlogText3Click}>
+            Blog
+          </div>
+          <div
+            className={styles.aboutUsDiv}
+            onClick={onAboutUsTextClick}
+          >{`About Us `}</div>
           <div className={styles.contactUsDiv}>Contact Us</div>
           <b className={styles.mycribs}>Mycribs</b>
           <div className={styles.categoriesDiv}>Categories</div>

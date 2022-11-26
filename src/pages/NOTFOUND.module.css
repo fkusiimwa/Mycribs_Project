@@ -136,34 +136,36 @@
   left: 0;
   width: 1920px;
   height: 44px;
-  color: var(--color-gray-700);
+  color: var(--color-gray-800);
   font-family: var(--font-montserrat);
 }
-.blogDiv,
-.contactDiv,
 .pagesDiv1,
-.productsDiv,
-.shopDiv {
+.productsDiv {
   position: absolute;
   top: 25%;
   left: 22.43%;
   line-height: 20px;
   display: inline-block;
 }
-.blogDiv,
-.contactDiv,
-.productsDiv,
-.shopDiv {
+.productsDiv {
   left: 28.89%;
+  cursor: pointer;
+}
+.blogDiv {
+  left: 37.3%;
+  display: inline-block;
 }
 .blogDiv,
 .contactDiv,
 .shopDiv {
-  left: 37.3%;
+  position: absolute;
+  top: 25%;
+  line-height: 20px;
 }
-.contactDiv,
 .shopDiv {
   left: 42.99%;
+  display: inline-block;
+  cursor: pointer;
 }
 .contactDiv {
   left: 49.02%;
@@ -172,7 +174,7 @@
 .rectangleDiv1 {
   width: 100%;
   left: 0;
-  border: 2px solid var(--color-gray-1300);
+  border: 2px solid var(--color-gray-1400);
   box-sizing: border-box;
 }
 .groupDiv3,
@@ -253,13 +255,21 @@
   height: 40px;
   color: var(--color-indigo-1200);
 }
+.groupDiv1 {
+  width: 1920px;
+  height: 411px;
+}
 .groupDiv,
+.groupDiv1,
 .rectangleDiv3 {
   position: absolute;
   top: 0;
   left: 0;
+}
+.groupDiv {
   width: 1920px;
   height: 411px;
+  cursor: pointer;
 }
 .rectangleDiv3 {
   height: 100%;
@@ -281,6 +291,7 @@
 }
 .allCategoriesDiv,
 .blogDiv1,
+.fAQsDiv,
 .latestNewsDiv {
   position: absolute;
   top: 33.19%;
@@ -288,42 +299,43 @@
   display: inline-block;
 }
 .allCategoriesDiv,
+.fAQsDiv,
 .latestNewsDiv {
   top: 41.54%;
 }
-.allCategoriesDiv {
+.allCategoriesDiv,
+.fAQsDiv {
   top: 49.9%;
+}
+.fAQsDiv {
+  top: 58.25%;
+  cursor: pointer;
 }
 .bookingHistoryDiv,
 .discountsDiv,
-.newestAdditionsDiv {
+.ordersHistoryDiv {
   position: absolute;
-  top: 58.25%;
-  left: 67.03%;
+  top: 41.13%;
+  left: 54.48%;
   display: inline-block;
 }
 .bookingHistoryDiv,
-.discountsDiv {
-  top: 41.13%;
-  left: 54.48%;
-}
-.bookingHistoryDiv {
+.ordersHistoryDiv {
   top: 49.48%;
 }
-.aboutUsDiv,
-.blogDiv2,
-.contactUsDiv,
 .ordersHistoryDiv {
-  position: absolute;
   top: 57.83%;
-  left: 54.48%;
-  display: inline-block;
 }
 .aboutUsDiv,
 .blogDiv2,
 .contactUsDiv {
-  top: 41.34%;
+  position: absolute;
   left: 40.63%;
+  display: inline-block;
+}
+.blogDiv2 {
+  top: 41.34%;
+  cursor: pointer;
 }
 .aboutUsDiv,
 .contactUsDiv {
@@ -419,7 +431,7 @@
 .rectangleDiv6 {
   height: 100%;
   bottom: 0;
-  background-color: var(--color-gray-1200);
+  background-color: var(--color-gray-1300);
 }
 .aetotechsAllRightsReserve {
   position: absolute;
@@ -451,7 +463,7 @@
   top: 90.04%;
   right: 0;
   bottom: 0;
-  color: var(--color-gray-2600);
+  color: var(--color-gray-2700);
 }
 .footerDiv {
   top: 1427px;
@@ -474,7 +486,7 @@
   right: 0;
   bottom: 0;
   left: 0;
-  color: var(--color-gray-2600);
+  color: var(--color-gray-2700);
 }
 .b,
 .thePageYouRequestedWasNot {

@@ -7,16 +7,36 @@ import styles from "./HomePage.module.css";
 const HomePage = () => {
   const navigate = useNavigate();
 
+  const onLoginTextClick = useCallback(() => {
+    navigate("/my-account");
+  }, [navigate]);
+
   const onPagesTextClick = useCallback(() => {
     navigate("/grid-default");
+  }, [navigate]);
+
+  const onProductsTextClick = useCallback(() => {
+    navigate("/about-us");
   }, [navigate]);
 
   const onBlogTextClick = useCallback(() => {
     navigate("/single-blog");
   }, [navigate]);
 
+  const onShopTextClick = useCallback(() => {
+    navigate("/contact-us");
+  }, [navigate]);
+
   const onShopNowButtonClick = useCallback(() => {
     navigate("/grid-default");
+  }, [navigate]);
+
+  const onFAQsTextClick = useCallback(() => {
+    navigate("/faq");
+  }, [navigate]);
+
+  const onBlogText2Click = useCallback(() => {
+    navigate("/single-blog");
   }, [navigate]);
 
   const onLeatestBlogContainer1Click = useCallback(() => {
@@ -33,7 +53,9 @@ const HomePage = () => {
         <div className={styles.rectangleDiv} />
         <div className={styles.englishDiv}>English</div>
         <div className={styles.uSDDiv}>USD</div>
-        <div className={styles.loginDiv}>Login</div>
+        <div className={styles.loginDiv} onClick={onLoginTextClick}>
+          Login
+        </div>
         <div className={styles.wishlistDiv}>Wishlist</div>
         <div className={styles.mhhasanulgmailcomDiv}>mycribs@aetotechs.com</div>
         <div className={styles.div}>(256)750 584 763</div>
@@ -53,12 +75,16 @@ const HomePage = () => {
         <div className={styles.pagesDiv} onClick={onPagesTextClick}>
           Hostels
         </div>
-        <div className={styles.productsDiv}>About Us</div>
+        <div className={styles.productsDiv} onClick={onProductsTextClick}>
+          About Us
+        </div>
         <div
           className={styles.blogDiv}
           onClick={onBlogTextClick}
         >{`Blog `}</div>
-        <div className={styles.shopDiv}>Contact</div>
+        <div className={styles.shopDiv} onClick={onShopTextClick}>
+          Contact
+        </div>
         <div className={styles.contactDiv}>Contact</div>
         <div className={styles.groupDiv}>
           <div className={styles.rectangleDiv1} />
@@ -104,8 +130,8 @@ const HomePage = () => {
           <div className={styles.bookNowDiv}>Book Now</div>
         </div>
         <div className={styles.headerTextDiv}>
-          <b className={styles.hostelsTailoredForYourBest}>
-            <p className={styles.p}>Hostels Tailored For Your</p>
+          <b className={styles.hostelsTailoredToYourBest}>
+            <p className={styles.p}>Hostels Tailored To Your</p>
             <p className={styles.offP}>Best Standards</p>
           </b>
           <b className={styles.dontSettleForLessGetAH}>
@@ -430,11 +456,15 @@ const HomePage = () => {
           <div className={styles.blogDiv1}>Blog</div>
           <div className={styles.latestNewsDiv}>Latest News</div>
           <div className={styles.allCategoriesDiv}>All Categories</div>
-          <div className={styles.newestAdditionsDiv}>Newest Additions</div>
+          <div className={styles.fAQsDiv} onClick={onFAQsTextClick}>
+            FAQs
+          </div>
           <div className={styles.discountsDiv}>Discounts</div>
           <div className={styles.bookingHistoryDiv}>Booking History</div>
           <div className={styles.ordersHistoryDiv}>Orders History</div>
-          <div className={styles.blogDiv2}>Blog</div>
+          <div className={styles.blogDiv2} onClick={onBlogText2Click}>
+            Blog
+          </div>
           <div className={styles.aboutUsDiv}>{`About Us `}</div>
           <div className={styles.contactUsDiv}>Contact Us</div>
           <b className={styles.mycribs}>Mycribs</b>
@@ -932,7 +962,7 @@ const HomePage = () => {
           <div className={styles.div17}>UGX 600,000</div>
           <div className={styles.div18}>$65.00</div>
           <img className={styles.lineIcon} alt="" src="../line-2.svg" />
-          <div className={styles.frameDiv3}>
+          <div className={styles.frameDiv4}>
             <div className={styles.groupDiv62}>
               <img
                 className={styles.vectorIcon6}
@@ -953,7 +983,7 @@ const HomePage = () => {
             />
             <img className={styles.groupIcon4} alt="" src="../group-283.svg" />
             <img
-              className={styles.image1168Icon7}
+              className={styles.image1168Icon6}
               alt=""
               src="../image-11686@2x.png"
             />
@@ -966,7 +996,7 @@ const HomePage = () => {
           />
           <img className={styles.image9Icon} alt="" src="../image-9@2x.png" />
           <img
-            className={styles.image23Icon2}
+            className={styles.image23Icon1}
             alt=""
             src="../image-231@2x.png"
           />
@@ -986,7 +1016,7 @@ const HomePage = () => {
           <div className={styles.div17}>UGX 250,000</div>
           <div className={styles.div18}>$65.00</div>
           <img className={styles.lineIcon} alt="" src="../line-2.svg" />
-          <div className={styles.frameDiv3}>
+          <div className={styles.frameDiv5}>
             <div className={styles.groupDiv62}>
               <img
                 className={styles.vectorIcon6}
@@ -1007,7 +1037,7 @@ const HomePage = () => {
             />
             <img className={styles.groupIcon4} alt="" src="../group-284.svg" />
             <img
-              className={styles.image1168Icon7}
+              className={styles.image1168Icon6}
               alt=""
               src="../image-11686@2x.png"
             />
@@ -1025,7 +1055,7 @@ const HomePage = () => {
             src="../image-231@2x.png"
           />
           <img
-            className={styles.image32Icon7}
+            className={styles.image32Icon5}
             alt=""
             src="../image-325@2x.png"
           />
@@ -1061,7 +1091,7 @@ const HomePage = () => {
             />
             <img className={styles.groupIcon4} alt="" src="../group-285.svg" />
             <img
-              className={styles.image1168Icon7}
+              className={styles.image1168Icon6}
               alt=""
               src="../image-11686@2x.png"
             />
@@ -1083,7 +1113,7 @@ const HomePage = () => {
             alt=""
             src="../image-325@2x.png"
           />
-          <img className={styles.image3Icon6} alt="" src="../image-34@2x.png" />
+          <img className={styles.image3Icon6} alt="" src="../image-38@2x.png" />
         </div>
       </div>
       <div className={styles.leatestProductDiv}>
@@ -1092,11 +1122,7 @@ const HomePage = () => {
         <div className={styles.div26} />
         <img className={styles.lineIcon4} alt="" src="../line-25.svg" />
         <div className={styles.frameDiv7}>
-          <img
-            className={styles.image15Icon4}
-            alt=""
-            src="../image-155@2x.png"
-          />
+          <div className={styles.image15Div} />
           <div className={styles.groupDiv69}>
             <img className={styles.groupDiv62} alt="" src="../vector-1.svg" />
             <div className={styles.saleDiv4}>Discount</div>

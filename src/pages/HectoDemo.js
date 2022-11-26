@@ -1,6 +1,18 @@
+import { useCallback } from "react";
+import { useNavigate } from "react-router-dom";
 import styles from "./HectoDemo.module.css";
 
 const HectoDemo = () => {
+  const navigate = useNavigate();
+
+  const onFAQsTextClick = useCallback(() => {
+    navigate("/faq");
+  }, [navigate]);
+
+  const onBlogText1Click = useCallback(() => {
+    navigate("/single-blog");
+  }, [navigate]);
+
   return (
     <div className={styles.hectoDemoDiv}>
       <div className={styles.footerDiv}>
@@ -11,11 +23,15 @@ const HectoDemo = () => {
           <div className={styles.blogDiv}>Blog</div>
           <div className={styles.latestNewsDiv}>Latest News</div>
           <div className={styles.allCategoriesDiv}>All Categories</div>
-          <div className={styles.newestAdditionsDiv}>Newest Additions</div>
+          <div className={styles.fAQsDiv} onClick={onFAQsTextClick}>
+            FAQs
+          </div>
           <div className={styles.discountsDiv}>Discounts</div>
           <div className={styles.bookingHistoryDiv}>Booking History</div>
           <div className={styles.ordersHistoryDiv}>Orders History</div>
-          <div className={styles.blogDiv1}>Blog</div>
+          <div className={styles.blogDiv1} onClick={onBlogText1Click}>
+            Blog
+          </div>
           <div className={styles.aboutUsDiv}>{`About Us `}</div>
           <div className={styles.contactUsDiv}>Contact Us</div>
           <b className={styles.mycribs}>Mycribs</b>

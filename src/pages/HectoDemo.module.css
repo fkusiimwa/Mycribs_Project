@@ -21,6 +21,7 @@
 }
 .allCategoriesDiv,
 .blogDiv,
+.fAQsDiv,
 .latestNewsDiv {
   position: absolute;
   top: 33.19%;
@@ -28,42 +29,43 @@
   display: inline-block;
 }
 .allCategoriesDiv,
+.fAQsDiv,
 .latestNewsDiv {
   top: 41.54%;
 }
-.allCategoriesDiv {
+.allCategoriesDiv,
+.fAQsDiv {
   top: 49.9%;
+}
+.fAQsDiv {
+  top: 58.25%;
+  cursor: pointer;
 }
 .bookingHistoryDiv,
 .discountsDiv,
-.newestAdditionsDiv {
+.ordersHistoryDiv {
   position: absolute;
-  top: 58.25%;
-  left: 67.03%;
+  top: 41.13%;
+  left: 54.48%;
   display: inline-block;
 }
 .bookingHistoryDiv,
-.discountsDiv {
-  top: 41.13%;
-  left: 54.48%;
-}
-.bookingHistoryDiv {
+.ordersHistoryDiv {
   top: 49.48%;
 }
-.aboutUsDiv,
-.blogDiv1,
-.contactUsDiv,
 .ordersHistoryDiv {
-  position: absolute;
   top: 57.83%;
-  left: 54.48%;
-  display: inline-block;
 }
 .aboutUsDiv,
 .blogDiv1,
 .contactUsDiv {
-  top: 41.34%;
+  position: absolute;
   left: 40.63%;
+  display: inline-block;
+}
+.blogDiv1 {
+  top: 41.34%;
+  cursor: pointer;
 }
 .aboutUsDiv,
 .contactUsDiv {
@@ -159,7 +161,7 @@
 .rectangleDiv3 {
   height: 100%;
   bottom: 0;
-  background-color: var(--color-gray-1200);
+  background-color: var(--color-gray-1300);
 }
 .aetotechsAllRightsReserve {
   position: absolute;
@@ -200,7 +202,7 @@
   top: 90.04%;
   right: 0;
   bottom: 0;
-  color: var(--color-gray-2600);
+  color: var(--color-gray-2700);
 }
 .footerDiv {
   top: 1807px;
@@ -229,7 +231,7 @@
   height: 2.27%;
   top: 97.73%;
   font-size: var(--paragraph-text-size);
-  color: var(--color-gray-2600);
+  color: var(--color-gray-2700);
   font-family: var(--paragraph-text);
 }
 .rectangleDiv5 {
@@ -304,7 +306,7 @@
   width: 1920px;
   height: 44px;
   font-size: var(--paragraph-text-size);
-  color: var(--color-gray-700);
+  color: var(--color-gray-800);
 }
 .blogDiv2,
 .contactDiv,
@@ -338,7 +340,7 @@
 .rectangleDiv6 {
   width: 100%;
   left: 0;
-  border: 2px solid var(--color-gray-1300);
+  border: 2px solid var(--color-gray-1400);
   box-sizing: border-box;
 }
 .groupDiv4,
@@ -425,7 +427,7 @@
   position: absolute;
   top: 123px;
   left: 0;
-  background-color: var(--color-gray-300);
+  background-color: var(--color-gray-400);
   width: 1920px;
   height: 285px;
   opacity: 0.5;
@@ -453,7 +455,7 @@
   font-size: var(--font-size-7xs);
   letter-spacing: 0.02em;
   font-weight: 500;
-  color: var(--color-gray-3300);
+  color: var(--color-gray-3400);
   display: inline-block;
 }
 .emailOrMobilePhoneNumber,
@@ -531,7 +533,7 @@
   position: absolute;
   top: 629px;
   left: -1px;
-  border-top: 2px solid var(--color-gray-1900);
+  border-top: 2px solid var(--color-gray-2000);
   box-sizing: border-box;
   width: 340px;
   height: 2px;
@@ -631,7 +633,7 @@
   left: 375px;
   width: 770px;
   height: 920px;
-  color: var(--color-gray-1700);
+  color: var(--color-gray-1800);
   font-family: var(--paragraph-text);
 }
 .lineDiv6,
@@ -639,7 +641,7 @@
   position: absolute;
   top: 968px;
   left: 406px;
-  border-top: 2px solid var(--color-gray-1900);
+  border-top: 2px solid var(--color-gray-2000);
   box-sizing: border-box;
   width: 338px;
   height: 2px;
@@ -654,7 +656,7 @@
   top: 0;
   left: 0;
   border-radius: var(--br-xs);
-  background-color: var(--color-gray-600);
+  background-color: var(--color-gray-700);
   width: 371px;
   height: 284px;
 }
@@ -663,7 +665,7 @@
   top: 163px;
   left: 45px;
   font-size: var(--font-size-7xs);
-  color: var(--color-gray-3300);
+  color: var(--color-gray-3400);
   display: inline-block;
 }
 .subtotalsDiv {
@@ -739,7 +741,7 @@
   position: absolute;
   top: 68px;
   left: 25px;
-  border-top: 2px solid var(--color-gray-1000);
+  border-top: 2px solid var(--color-gray-1100);
   box-sizing: border-box;
   width: 312px;
   height: 2px;
@@ -777,7 +779,7 @@
   position: absolute;
   top: 101.5px;
   left: -0.5px;
-  border-top: 1px solid var(--color-gray-1400);
+  border-top: 1px solid var(--color-gray-1500);
   box-sizing: border-box;
   width: 370px;
   height: 1px;
@@ -876,6 +878,6 @@
   overflow: hidden;
   text-align: left;
   font-size: var(--font-size-3xs);
-  color: var(--color-gray-2400);
+  color: var(--color-gray-2500);
   font-family: var(--font-montserrat);
 }

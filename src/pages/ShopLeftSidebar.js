@@ -9,8 +9,32 @@ const ShopLeftSidebar = () => {
     navigate("/shop-list");
   }, [navigate]);
 
+  const onProductsTextClick = useCallback(() => {
+    navigate("/about-us");
+  }, [navigate]);
+
+  const onBlogTextClick = useCallback(() => {
+    navigate("/single-blog");
+  }, [navigate]);
+
+  const onShopTextClick = useCallback(() => {
+    navigate("/contact-us");
+  }, [navigate]);
+
+  const onHektoTextClick = useCallback(() => {
+    navigate("/");
+  }, [navigate]);
+
   const onGroupContainer3Click = useCallback(() => {
     navigate("/");
+  }, [navigate]);
+
+  const onFAQsTextClick = useCallback(() => {
+    navigate("/faq");
+  }, [navigate]);
+
+  const onBlogText2Click = useCallback(() => {
+    navigate("/single-blog");
   }, [navigate]);
 
   const onFaSolidlistIconClick = useCallback(() => {
@@ -59,15 +83,23 @@ const ShopLeftSidebar = () => {
             alt=""
             src="../bxbxphonecall4.svg"
           />
-          <img className={styles.groupIcon} alt="" src="../group-174.svg" />
+          <img className={styles.groupIcon} alt="" src="../group-176.svg" />
         </div>
         <div className={styles.navBarDiv}>
           <div className={styles.pagesDiv1} onClick={onPagesText1Click}>
             Hostels
           </div>
-          <div className={styles.productsDiv}>About Us</div>
-          <div className={styles.blogDiv}>{`Blog `}</div>
-          <div className={styles.shopDiv}>{`Contact `}</div>
+          <div className={styles.productsDiv} onClick={onProductsTextClick}>
+            About Us
+          </div>
+          <div
+            className={styles.blogDiv}
+            onClick={onBlogTextClick}
+          >{`Blog `}</div>
+          <div
+            className={styles.shopDiv}
+            onClick={onShopTextClick}
+          >{`Contact `}</div>
           <div className={styles.contactDiv}>Contact</div>
           <div className={styles.groupDiv2}>
             <div className={styles.rectangleDiv1} />
@@ -75,7 +107,9 @@ const ShopLeftSidebar = () => {
               <div className={styles.rectangleDiv2} />
             </div>
           </div>
-          <b className={styles.hektoB}>Mycribs</b>
+          <b className={styles.hektoB} onClick={onHektoTextClick}>
+            Mycribs
+          </b>
           <div className={styles.groupDiv4} onClick={onGroupContainer3Click}>
             <div className={styles.homeDiv1}>Home</div>
           </div>
@@ -87,7 +121,7 @@ const ShopLeftSidebar = () => {
           <img
             className={styles.uilsearchIcon}
             alt=""
-            src="../uilsearch12.svg"
+            src="../uilsearch13.svg"
           />
         </div>
       </div>
@@ -99,11 +133,15 @@ const ShopLeftSidebar = () => {
           <div className={styles.blogDiv1}>Blog</div>
           <div className={styles.latestNewsDiv}>Latest News</div>
           <div className={styles.allCategoriesDiv}>All Categories</div>
-          <div className={styles.newestAdditionsDiv}>Newest Additions</div>
+          <div className={styles.fAQsDiv} onClick={onFAQsTextClick}>
+            FAQs
+          </div>
           <div className={styles.discountsDiv}>Discounts</div>
           <div className={styles.bookingHistoryDiv}>Booking History</div>
           <div className={styles.ordersHistoryDiv}>Orders History</div>
-          <div className={styles.blogDiv2}>Blog</div>
+          <div className={styles.blogDiv2} onClick={onBlogText2Click}>
+            Blog
+          </div>
           <div className={styles.aboutUsDiv}>{`About Us `}</div>
           <div className={styles.contactUsDiv}>Contact Us</div>
           <b className={styles.mycribs}>Mycribs</b>
@@ -126,7 +164,7 @@ const ShopLeftSidebar = () => {
               ©Aetotechs - All Rights Reserved
             </div>
           </div>
-          <img className={styles.groupIcon1} alt="" src="../group-20523.svg" />
+          <img className={styles.groupIcon1} alt="" src="../group-20510.svg" />
         </div>
       </div>
       <div className={styles.groupDiv7}>
@@ -136,7 +174,7 @@ const ShopLeftSidebar = () => {
             ©Aetotechs - All Rights Reserved
           </div>
         </div>
-        <img className={styles.groupIcon2} alt="" src="../group-20523.svg" />
+        <img className={styles.groupIcon2} alt="" src="../group-20510.svg" />
       </div>
       <div className={styles.pageSortBy}>
         <b className={styles.ecommerceAcceoriesFashion}>Hostels</b>
@@ -168,7 +206,7 @@ const ShopLeftSidebar = () => {
             <img
               className={styles.akarIconschevronDown1}
               alt=""
-              src="../akariconschevrondown13.svg"
+              src="../akariconschevrondown14.svg"
             />
             <div className={styles.bestMatchDiv}>Price</div>
           </div>
@@ -195,27 +233,27 @@ const ShopLeftSidebar = () => {
         <img
           className={styles.antDesignstarFilledIcon}
           alt=""
-          src="../antdesignstarfilled10.svg"
+          src="../antdesignstarfilled.svg"
         />
         <img
           className={styles.antDesignstarFilledIcon1}
           alt=""
-          src="../antdesignstarfilled10.svg"
+          src="../antdesignstarfilled.svg"
         />
         <img
           className={styles.antDesignstarFilledIcon2}
           alt=""
-          src="../antdesignstarfilled10.svg"
+          src="../antdesignstarfilled.svg"
         />
         <img
           className={styles.antDesignstarFilledIcon3}
           alt=""
-          src="../antdesignstarfilled10.svg"
+          src="../antdesignstarfilled.svg"
         />
         <img
           className={styles.antDesignstarFilledIcon4}
           alt=""
-          src="../antdesignstarfilled14.svg"
+          src="../antdesignstarfilled8.svg"
         />
         <div className={styles.loremIpsumDolorSitAmetCo}>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Magna in est
@@ -246,22 +284,22 @@ const ShopLeftSidebar = () => {
         <img
           className={styles.antDesignstarFilledIcon6}
           alt=""
-          src="../antdesignstarfilled10.svg"
+          src="../antdesignstarfilled.svg"
         />
         <img
           className={styles.antDesignstarFilledIcon7}
           alt=""
-          src="../antdesignstarfilled10.svg"
+          src="../antdesignstarfilled.svg"
         />
         <img
           className={styles.antDesignstarFilledIcon8}
           alt=""
-          src="../antdesignstarfilled10.svg"
+          src="../antdesignstarfilled.svg"
         />
         <img
           className={styles.antDesignstarFilledIcon9}
           alt=""
-          src="../antdesignstarfilled14.svg"
+          src="../antdesignstarfilled8.svg"
         />
         <div className={styles.loremIpsumDolorSitAmetCo}>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Magna in est
@@ -471,27 +509,27 @@ const ShopLeftSidebar = () => {
         <img
           className={styles.antDesignstarFilledIcon25}
           alt=""
-          src="../antdesignstarfilled10.svg"
+          src="../antdesignstarfilled.svg"
         />
         <img
           className={styles.antDesignstarFilledIcon26}
           alt=""
-          src="../antdesignstarfilled10.svg"
+          src="../antdesignstarfilled.svg"
         />
         <img
           className={styles.antDesignstarFilledIcon27}
           alt=""
-          src="../antdesignstarfilled10.svg"
+          src="../antdesignstarfilled.svg"
         />
         <img
           className={styles.antDesignstarFilledIcon28}
           alt=""
-          src="../antdesignstarfilled10.svg"
+          src="../antdesignstarfilled.svg"
         />
         <img
           className={styles.antDesignstarFilledIcon29}
           alt=""
-          src="../antdesignstarfilled14.svg"
+          src="../antdesignstarfilled8.svg"
         />
         <div className={styles.loremIpsumDolorSitAmetCo5}>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Magna in est
@@ -577,12 +615,12 @@ const ShopLeftSidebar = () => {
       <img
         className={styles.antDesignstarFilledIcon45}
         alt=""
-        src="../antdesignstarfilled14.svg"
+        src="../antdesignstarfilled8.svg"
       />
       <img
         className={styles.antDesignstarFilledIcon46}
         alt=""
-        src="../antdesignstarfilled14.svg"
+        src="../antdesignstarfilled8.svg"
       />
       <img
         className={styles.antDesignstarFilledIcon47}
@@ -592,37 +630,37 @@ const ShopLeftSidebar = () => {
       <img
         className={styles.antDesignstarFilledIcon48}
         alt=""
-        src="../antdesignstarfilled14.svg"
+        src="../antdesignstarfilled8.svg"
       />
       <img
         className={styles.antDesignstarFilledIcon49}
         alt=""
-        src="../antdesignstarfilled14.svg"
+        src="../antdesignstarfilled8.svg"
       />
       <img
         className={styles.antDesignstarFilledIcon50}
         alt=""
-        src="../antdesignstarfilled14.svg"
+        src="../antdesignstarfilled8.svg"
       />
       <img
         className={styles.antDesignstarFilledIcon51}
         alt=""
-        src="../antdesignstarfilled14.svg"
+        src="../antdesignstarfilled8.svg"
       />
       <img
         className={styles.antDesignstarFilledIcon52}
         alt=""
-        src="../antdesignstarfilled14.svg"
+        src="../antdesignstarfilled8.svg"
       />
       <img
         className={styles.antDesignstarFilledIcon53}
         alt=""
-        src="../antdesignstarfilled14.svg"
+        src="../antdesignstarfilled8.svg"
       />
       <img
         className={styles.antDesignstarFilledIcon54}
         alt=""
-        src="../antdesignstarfilled14.svg"
+        src="../antdesignstarfilled8.svg"
       />
       <div className={styles.div10}>(2341)</div>
       <div className={styles.div11}>(1726)</div>
@@ -630,7 +668,7 @@ const ShopLeftSidebar = () => {
       <div className={styles.div13}>(25)</div>
       <div className={styles.rectangleDiv18} />
       <div className={styles.uGX0UGX2000000}>UGX 0 - UGX 2,000,000</div>
-      <img className={styles.uilsearchIcon1} alt="" src="../uilsearch13.svg" />
+      <img className={styles.uilsearchIcon1} alt="" src="../uilsearch14.svg" />
       <img className={styles.ellipseIcon21} alt="" src="../ellipse-71.svg" />
       <img className={styles.ellipseIcon22} alt="" src="../ellipse-72.svg" />
       <img className={styles.ellipseIcon23} alt="" src="../ellipse-73.svg" />

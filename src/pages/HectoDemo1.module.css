@@ -21,6 +21,7 @@
 }
 .allCategoriesDiv,
 .blogDiv,
+.fAQsDiv,
 .latestNewsDiv {
   position: absolute;
   top: 33.19%;
@@ -28,46 +29,47 @@
   display: inline-block;
 }
 .allCategoriesDiv,
+.fAQsDiv,
 .latestNewsDiv {
   top: 41.54%;
 }
-.allCategoriesDiv {
+.allCategoriesDiv,
+.fAQsDiv {
   top: 49.9%;
+}
+.fAQsDiv {
+  top: 58.25%;
+  cursor: pointer;
 }
 .bookingHistoryDiv,
 .discountsDiv,
-.newestAdditionsDiv {
+.ordersHistoryDiv {
   position: absolute;
-  top: 58.25%;
-  left: 67.03%;
+  top: 41.13%;
+  left: 54.48%;
   display: inline-block;
 }
 .bookingHistoryDiv,
-.discountsDiv {
-  top: 41.13%;
-  left: 54.48%;
-}
-.bookingHistoryDiv {
+.ordersHistoryDiv {
   top: 49.48%;
 }
+.ordersHistoryDiv {
+  top: 57.83%;
+}
+.blogDiv1 {
+  top: 41.34%;
+  cursor: pointer;
+}
 .aboutUsDiv,
 .blogDiv1,
-.contactUsDiv,
-.ordersHistoryDiv {
+.contactUsDiv {
   position: absolute;
-  top: 57.83%;
-  left: 54.48%;
+  left: 40.63%;
   display: inline-block;
 }
-.aboutUsDiv,
-.blogDiv1,
-.contactUsDiv {
-  top: 41.34%;
-  left: 40.63%;
-}
-.aboutUsDiv,
-.contactUsDiv {
+.aboutUsDiv {
   top: 49.69%;
+  cursor: pointer;
 }
 .contactUsDiv {
   top: 58.04%;
@@ -159,7 +161,7 @@
 .rectangleDiv3 {
   height: 100%;
   bottom: 0;
-  background-color: var(--color-gray-1200);
+  background-color: var(--color-gray-1300);
 }
 .aetotechsAllRightsReserve {
   position: absolute;
@@ -200,7 +202,7 @@
   top: 90.04%;
   right: 0;
   bottom: 0;
-  color: var(--color-gray-2600);
+  color: var(--color-gray-2700);
 }
 .footerDiv {
   top: 1807px;
@@ -226,7 +228,7 @@
 .groupDiv2 {
   height: 2.27%;
   top: 97.73%;
-  color: var(--color-gray-2600);
+  color: var(--color-gray-2700);
 }
 .rectangleDiv5 {
   height: 100%;
@@ -234,28 +236,29 @@
   background-color: var(--violet);
 }
 .englishDiv,
+.loginDiv,
 .uSDDiv {
   position: absolute;
   top: 31.82%;
   left: 62.08%;
   display: none;
 }
+.loginDiv,
 .uSDDiv {
   left: 66.67%;
 }
+.loginDiv {
+  left: 70.1%;
+  display: inline-block;
+  cursor: pointer;
+}
 .div,
-.loginDiv,
 .mhhasanulgmailcomDiv,
 .wishlistDiv {
   position: absolute;
   top: 31.82%;
-  left: 70.1%;
-  display: inline-block;
-}
-.div,
-.mhhasanulgmailcomDiv,
-.wishlistDiv {
   left: 74.01%;
+  display: inline-block;
 }
 .div,
 .mhhasanulgmailcomDiv {
@@ -299,14 +302,10 @@
   left: 0;
   width: 1920px;
   height: 44px;
-  color: var(--color-gray-700);
+  color: var(--color-gray-800);
   font-family: var(--font-montserrat);
 }
-.blogDiv2,
-.contactDiv,
-.pagesDiv1,
-.productsDiv,
-.shopDiv {
+.pagesDiv1 {
   position: absolute;
   top: 25%;
   left: 22.43%;
@@ -314,19 +313,30 @@
   display: inline-block;
 }
 .blogDiv2,
-.contactDiv,
-.productsDiv,
-.shopDiv {
+.productsDiv {
+  display: inline-block;
+  cursor: pointer;
+}
+.productsDiv {
+  position: absolute;
+  top: 25%;
   left: 28.89%;
+  line-height: 20px;
+}
+.blogDiv2 {
+  left: 37.3%;
 }
 .blogDiv2,
 .contactDiv,
 .shopDiv {
-  left: 37.3%;
+  position: absolute;
+  top: 25%;
+  line-height: 20px;
 }
-.contactDiv,
 .shopDiv {
   left: 42.99%;
+  display: inline-block;
+  cursor: pointer;
 }
 .contactDiv {
   left: 49.02%;
@@ -335,7 +345,7 @@
 .rectangleDiv6 {
   width: 100%;
   left: 0;
-  border: 2px solid var(--color-gray-1300);
+  border: 2px solid var(--color-gray-1400);
   box-sizing: border-box;
 }
 .groupDiv4,
@@ -372,6 +382,7 @@
   top: 7.5%;
   font-size: var(--font-size-11xl);
   font-family: var(--font-montserrat);
+  cursor: pointer;
 }
 .homeDiv {
   top: 0;
@@ -420,7 +431,7 @@
   position: absolute;
   top: 123px;
   left: 0;
-  background-color: var(--color-gray-300);
+  background-color: var(--color-gray-400);
   width: 1920px;
   height: 285px;
   opacity: 0.5;
@@ -449,7 +460,7 @@
   font-size: var(--font-size-7xs);
   letter-spacing: 0.02em;
   font-weight: 500;
-  color: var(--color-gray-3300);
+  color: var(--color-gray-3400);
   display: inline-block;
 }
 .firstNameDiv,
@@ -527,7 +538,7 @@
   position: absolute;
   top: 629px;
   left: -1px;
-  border-top: 2px solid var(--color-gray-1900);
+  border-top: 2px solid var(--color-gray-2000);
   box-sizing: border-box;
   width: 340px;
   height: 2px;
@@ -630,7 +641,7 @@
   width: 770px;
   height: 920px;
   font-size: var(--font-size-3xs);
-  color: var(--color-gray-1700);
+  color: var(--color-gray-1800);
 }
 .lineDiv6,
 .lineIcon {
@@ -641,7 +652,7 @@
 .lineDiv6 {
   top: 959px;
   left: 650px;
-  border-top: 2px solid var(--color-gray-1900);
+  border-top: 2px solid var(--color-gray-2000);
   box-sizing: border-box;
 }
 .lineIcon {
@@ -677,7 +688,7 @@
   left: 362px;
   line-height: 30px;
   font-weight: 600;
-  color: var(--color-gray-3100);
+  color: var(--color-gray-3200);
   text-align: center;
   display: inline-block;
 }

@@ -1,6 +1,30 @@
+import { useCallback } from "react";
+import { useNavigate } from "react-router-dom";
 import styles from "./CONTACTUS.module.css";
 
 const CONTACTUS = () => {
+  const navigate = useNavigate();
+
+  const onProductsTextClick = useCallback(() => {
+    navigate("/about-us");
+  }, [navigate]);
+
+  const onHektoTextClick = useCallback(() => {
+    navigate("/");
+  }, [navigate]);
+
+  const onFAQsTextClick = useCallback(() => {
+    navigate("/faq");
+  }, [navigate]);
+
+  const onBlogText2Click = useCallback(() => {
+    navigate("/single-blog");
+  }, [navigate]);
+
+  const onAboutUsTextClick = useCallback(() => {
+    navigate("/about-us");
+  }, [navigate]);
+
   return (
     <div className={styles.cONTACTUSDiv}>
       <div className={styles.groupDiv}>
@@ -42,7 +66,9 @@ const CONTACTUS = () => {
           </div>
           <div className={styles.navBarDiv}>
             <div className={styles.pagesDiv1}>Hostels</div>
-            <div className={styles.productsDiv}>About Us</div>
+            <div className={styles.productsDiv} onClick={onProductsTextClick}>
+              About Us
+            </div>
             <div className={styles.blogDiv}>{`Blog `}</div>
             <div className={styles.shopDiv}>Contact</div>
             <div className={styles.contactDiv}>Contact</div>
@@ -52,7 +78,9 @@ const CONTACTUS = () => {
                 <div className={styles.rectangleDiv2} />
               </div>
             </div>
-            <b className={styles.hektoB}>Mycribs</b>
+            <b className={styles.hektoB} onClick={onHektoTextClick}>
+              Mycribs
+            </b>
             <div className={styles.groupDiv5}>
               <div className={styles.homeDiv1}>Home</div>
             </div>
@@ -64,7 +92,7 @@ const CONTACTUS = () => {
             <img
               className={styles.uilsearchIcon}
               alt=""
-              src="../uilsearch10.svg"
+              src="../uilsearch11.svg"
             />
           </div>
         </div>
@@ -77,12 +105,19 @@ const CONTACTUS = () => {
           <div className={styles.blogDiv1}>Blog</div>
           <div className={styles.latestNewsDiv}>Latest News</div>
           <div className={styles.allCategoriesDiv}>All Categories</div>
-          <div className={styles.newestAdditionsDiv}>Newest Additions</div>
+          <div className={styles.fAQsDiv} onClick={onFAQsTextClick}>
+            FAQs
+          </div>
           <div className={styles.discountsDiv}>Discounts</div>
           <div className={styles.bookingHistoryDiv}>Booking History</div>
           <div className={styles.ordersHistoryDiv}>Orders History</div>
-          <div className={styles.blogDiv2}>Blog</div>
-          <div className={styles.aboutUsDiv}>{`About Us `}</div>
+          <div className={styles.blogDiv2} onClick={onBlogText2Click}>
+            Blog
+          </div>
+          <div
+            className={styles.aboutUsDiv}
+            onClick={onAboutUsTextClick}
+          >{`About Us `}</div>
           <div className={styles.contactUsDiv1}>Contact Us</div>
           <b className={styles.mycribs}>Mycribs</b>
           <div className={styles.categoriesDiv}>Categories</div>

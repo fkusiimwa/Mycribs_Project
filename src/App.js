@@ -12,6 +12,7 @@ import ShoppingCart from "./pages/ShoppingCart";
 import OrderCompleted from "./pages/OrderCompleted";
 import ProductDetails from "./pages/ProductDetails";
 import MyAccount from "./pages/MyAccount";
+import FaqMessageSent from "./pages/FaqMessageSent";
 import Faq from "./pages/Faq";
 import ABOUTUS from "./pages/ABOUTUS";
 import CONTACTUS from "./pages/CONTACTUS";
@@ -46,11 +47,11 @@ function App() {
         title = "";
         metaDescription = "";
         break;
-      case "/hecto-demo":
+      case "/hecto-demo1":
         title = "";
         metaDescription = "";
         break;
-      case "/hecto-demo1":
+      case "/hecto-demo":
         title = "";
         metaDescription = "";
         break;
@@ -67,6 +68,10 @@ function App() {
         metaDescription = "";
         break;
       case "/my-account":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/faq-message-sent":
         title = "";
         metaDescription = "";
         break;
@@ -120,9 +125,9 @@ function App() {
 
       <Route path="/single-blog" element={<SingleBlog />} />
 
-      <Route path="/hecto-demo" element={<HectoDemo />} />
+      <Route path="/hecto-demo1" element={<HectoDemo />} />
 
-      <Route path="/hecto-demo1" element={<HectoDemo1 />} />
+      <Route path="/hecto-demo" element={<HectoDemo1 />} />
 
       <Route path="/shopping-cart" element={<ShoppingCart />} />
 
@@ -131,6 +136,8 @@ function App() {
       <Route path="/product-details" element={<ProductDetails />} />
 
       <Route path="/my-account" element={<MyAccount />} />
+
+      <Route path="/faq-message-sent" element={<FaqMessageSent />} />
 
       <Route path="/faq" element={<Faq />} />
 

@@ -136,34 +136,36 @@
   left: 0;
   width: 1920px;
   height: 44px;
-  color: var(--color-gray-700);
+  color: var(--color-gray-800);
   font-family: var(--font-montserrat);
 }
-.blogDiv,
-.contactDiv,
 .pagesDiv1,
-.productsDiv,
-.shopDiv {
+.productsDiv {
   position: absolute;
   top: 25%;
   left: 22.43%;
   line-height: 20px;
   display: inline-block;
 }
-.blogDiv,
-.contactDiv,
-.productsDiv,
-.shopDiv {
+.productsDiv {
   left: 28.89%;
+  cursor: pointer;
+}
+.blogDiv {
+  left: 37.3%;
+  display: inline-block;
 }
 .blogDiv,
 .contactDiv,
 .shopDiv {
-  left: 37.3%;
+  position: absolute;
+  top: 25%;
+  line-height: 20px;
 }
-.contactDiv,
 .shopDiv {
   left: 42.99%;
+  display: inline-block;
+  cursor: pointer;
 }
 .contactDiv {
   left: 49.02%;
@@ -172,7 +174,7 @@
 .rectangleDiv1 {
   width: 100%;
   left: 0;
-  border: 2px solid var(--color-gray-1300);
+  border: 2px solid var(--color-gray-1400);
   box-sizing: border-box;
 }
 .groupDiv3,
@@ -209,6 +211,7 @@
   top: 7.5%;
   font-size: var(--font-size-11xl);
   font-family: var(--font-montserrat);
+  cursor: pointer;
 }
 .homeDiv1 {
   top: 0;
@@ -290,6 +293,7 @@
 }
 .allCategoriesDiv,
 .blogDiv1,
+.fAQsDiv,
 .latestNewsDiv {
   position: absolute;
   top: 33.19%;
@@ -297,42 +301,43 @@
   display: inline-block;
 }
 .allCategoriesDiv,
+.fAQsDiv,
 .latestNewsDiv {
   top: 41.54%;
 }
-.allCategoriesDiv {
+.allCategoriesDiv,
+.fAQsDiv {
   top: 49.9%;
+}
+.fAQsDiv {
+  top: 58.25%;
+  cursor: pointer;
 }
 .bookingHistoryDiv,
 .discountsDiv,
-.newestAdditionsDiv {
+.ordersHistoryDiv {
   position: absolute;
-  top: 58.25%;
-  left: 67.03%;
+  top: 41.13%;
+  left: 54.48%;
   display: inline-block;
 }
 .bookingHistoryDiv,
-.discountsDiv {
-  top: 41.13%;
-  left: 54.48%;
-}
-.bookingHistoryDiv {
+.ordersHistoryDiv {
   top: 49.48%;
 }
-.aboutUsDiv,
-.blogDiv2,
-.contactUsDiv,
 .ordersHistoryDiv {
-  position: absolute;
   top: 57.83%;
-  left: 54.48%;
-  display: inline-block;
 }
 .aboutUsDiv,
 .blogDiv2,
 .contactUsDiv {
-  top: 41.34%;
+  position: absolute;
   left: 40.63%;
+  display: inline-block;
+}
+.blogDiv2 {
+  top: 41.34%;
+  cursor: pointer;
 }
 .aboutUsDiv,
 .contactUsDiv {
@@ -428,7 +433,7 @@
 .rectangleDiv6 {
   height: 100%;
   bottom: 0;
-  background-color: var(--color-gray-1200);
+  background-color: var(--color-gray-1300);
 }
 .aetotechsAllRightsReserve {
   position: absolute;
@@ -469,7 +474,7 @@
   top: 90.04%;
   right: 0;
   bottom: 0;
-  color: var(--color-gray-2600);
+  color: var(--color-gray-2700);
 }
 .footerDiv {
   top: 1582px;
@@ -493,14 +498,14 @@
   right: 0;
   bottom: 0;
   left: 0;
-  color: var(--color-gray-2600);
+  color: var(--color-gray-2700);
   font-family: var(--paragraph-text);
 }
 .rectangleDiv8 {
   position: absolute;
   top: 0;
   left: 0;
-  background-color: #f8f8fd;
+  background-color: var(--color-gray-100);
   width: 566px;
   height: 738px;
 }
@@ -512,7 +517,7 @@
   left: 46px;
   border-radius: var(--br-sm);
   background-color: var(--white);
-  border: 1px solid var(--color-gray-1600);
+  border: 1px solid var(--color-gray-1700);
   box-sizing: border-box;
   width: 445px;
   height: 50px;
@@ -533,6 +538,7 @@
   background-color: var(--pink);
   width: 156px;
   height: 48px;
+  cursor: pointer;
 }
 .groupDiv10 {
   position: absolute;
@@ -603,7 +609,7 @@
   top: 935px;
 }
 .askAQuestion,
-.generelInformationB,
+.generalInformationB,
 .submitDiv {
   position: absolute;
   top: 1171px;
@@ -614,15 +620,15 @@
   display: inline-block;
 }
 .askAQuestion,
-.generelInformationB {
+.generalInformationB {
   top: 600px;
   left: 1016px;
   font-size: var(--font-size-8xl);
   color: var(--color-indigo-400);
 }
-.generelInformationB {
+.generalInformationB {
   top: 545px;
-  left: 360px;
+  left: 361px;
   font-size: var(--font-size-13xl);
 }
 .loremIpsumDolorSitAmetCo,
@@ -633,7 +639,7 @@
   top: 684px;
   left: 377px;
   line-height: 30px;
-  color: var(--color-gray-2300);
+  color: var(--color-gray-2400);
   display: inline-block;
   width: 499px;
   height: 45px;
@@ -666,6 +672,6 @@
   overflow: hidden;
   text-align: left;
   font-size: var(--paragraph-text-size);
-  color: var(--color-gray-3200);
+  color: var(--color-gray-3300);
   font-family: var(--font-montserrat);
 }

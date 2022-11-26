@@ -1,28 +1,30 @@
-.blogDiv,
-.contactDiv,
 .pagesDiv,
-.productsDiv,
-.shopDiv {
+.productsDiv {
   position: absolute;
   top: 25%;
   left: 22.43%;
   line-height: 20px;
   display: inline-block;
 }
-.blogDiv,
-.contactDiv,
-.productsDiv,
-.shopDiv {
+.productsDiv {
   left: 28.89%;
+  cursor: pointer;
+}
+.blogDiv {
+  left: 37.3%;
+  display: inline-block;
 }
 .blogDiv,
 .contactDiv,
 .shopDiv {
-  left: 37.3%;
+  position: absolute;
+  top: 25%;
+  line-height: 20px;
 }
-.contactDiv,
 .shopDiv {
   left: 42.99%;
+  display: inline-block;
+  cursor: pointer;
 }
 .contactDiv {
   left: 49.02%;
@@ -31,7 +33,7 @@
 .rectangleDiv {
   width: 100%;
   left: 0;
-  border: 2px solid var(--color-gray-1300);
+  border: 2px solid var(--color-gray-1400);
   box-sizing: border-box;
 }
 .groupDiv,
@@ -68,6 +70,7 @@
   top: 7.5%;
   font-size: var(--font-size-11xl);
   font-family: var(--font-montserrat);
+  cursor: pointer;
 }
 .homeDiv {
   top: 0;

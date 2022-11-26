@@ -5,17 +5,33 @@ import styles from "./ABOUTUS.module.css";
 const ABOUTUS = () => {
   const navigate = useNavigate();
 
+  const onGroupContainer8Click = useCallback(() => {
+    navigate("/contact-us");
+  }, [navigate]);
+
+  const onFAQsTextClick = useCallback(() => {
+    navigate("/faq");
+  }, [navigate]);
+
+  const onBlogText1Click = useCallback(() => {
+    navigate("/single-blog");
+  }, [navigate]);
+
   const onPagesText2Click = useCallback(() => {
     navigate("/grid-default");
+  }, [navigate]);
+
+  const onShopTextClick = useCallback(() => {
+    navigate("/contact-us");
+  }, [navigate]);
+
+  const onHektoTextClick = useCallback(() => {
+    navigate("/");
   }, [navigate]);
 
   const onGroupContainer30Click = useCallback(() => {
     navigate("/");
   }, [navigate]);
-
-  const onBlogClick = useCallback(() => {
-    navigate("/single-blog"); 
-  }, [navigate]);  //when blog is clicked, switch to the blog
 
   return (
     <div className={styles.aBOUTUSDiv}>
@@ -61,7 +77,7 @@ const ABOUTUS = () => {
           </div>
         </div>
       </div>
-      <div className={styles.groupDiv8}>
+      <div className={styles.groupDiv8} onClick={onGroupContainer8Click}>
         <div className={styles.rectangleDiv1} />
         <div className={styles.contactUsDiv}>Contact us</div>
       </div>
@@ -163,11 +179,15 @@ const ABOUTUS = () => {
           <div className={styles.blogDiv}>Blog</div>
           <div className={styles.latestNewsDiv}>Latest News</div>
           <div className={styles.allCategoriesDiv}>All Categories</div>
-          <div className={styles.newestAdditionsDiv}>Newest Additions</div>
+          <div className={styles.fAQsDiv} onClick={onFAQsTextClick}>
+            FAQs
+          </div>
           <div className={styles.discountsDiv}>Discounts</div>
           <div className={styles.bookingHistoryDiv}>Booking History</div>
           <div className={styles.ordersHistoryDiv}>Orders History</div>
-          <div className={styles.blogDiv1}>Blog</div>
+          <div className={styles.blogDiv1} onClick={onBlogText1Click}>
+            Blog
+          </div>
           <div className={styles.aboutUsDiv1}>{`About Us `}</div>
           <div className={styles.contactUsDiv1}>Contact Us</div>
           <b className={styles.mycribs}>Mycribs</b>
@@ -190,7 +210,7 @@ const ABOUTUS = () => {
               ©Aetotechs - All Rights Reserved
             </div>
           </div>
-          <img className={styles.groupIcon1} alt="" src="../group-20517.svg" />
+          <img className={styles.groupIcon1} alt="" src="../group-20519.svg" />
         </div>
       </div>
       <div className={styles.groupDiv26}>
@@ -200,7 +220,7 @@ const ABOUTUS = () => {
             ©Aetotechs - All Rights Reserved
           </div>
         </div>
-        <img className={styles.groupIcon2} alt="" src="../group-20517.svg" />
+        <img className={styles.groupIcon2} alt="" src="../group-20519.svg" />
       </div>
       <div className={styles.headingBarDiv}>
         <div className={styles.rectangleDiv12} />
@@ -228,7 +248,9 @@ const ABOUTUS = () => {
         </div>
         <div className={styles.productsDiv}>About Us</div>
         <div className={styles.blogDiv2}>{`Blog `}</div>
-        <div className={styles.shopDiv}>Contact</div>
+        <div className={styles.shopDiv} onClick={onShopTextClick}>
+          Contact
+        </div>
         <div className={styles.contactDiv}>Contact</div>
         <div className={styles.groupDiv28}>
           <div className={styles.rectangleDiv13} />
@@ -236,7 +258,9 @@ const ABOUTUS = () => {
             <div className={styles.rectangleDiv14} />
           </div>
         </div>
-        <b className={styles.hektoB}>Mycribs</b>
+        <b className={styles.hektoB} onClick={onHektoTextClick}>
+          Mycribs
+        </b>
         <div className={styles.groupDiv30} onClick={onGroupContainer30Click}>
           <div className={styles.homeDiv1}>Home</div>
         </div>
@@ -245,7 +269,7 @@ const ABOUTUS = () => {
           alt=""
           src="../akariconschevrondown.svg"
         />
-        <img className={styles.uilsearchIcon} alt="" src="../uilsearch9.svg" />
+        <img className={styles.uilsearchIcon} alt="" src="../uilsearch10.svg" />
       </div>
     </div>
   );

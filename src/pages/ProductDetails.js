@@ -5,12 +5,32 @@ import styles from "./ProductDetails.module.css";
 const ProductDetails = () => {
   const navigate = useNavigate();
 
+  const onFAQsTextClick = useCallback(() => {
+    navigate("/faq");
+  }, [navigate]);
+
+  const onBlogText1Click = useCallback(() => {
+    navigate("/single-blog");
+  }, [navigate]);
+
   const onPagesText2Click = useCallback(() => {
     navigate("/shop-left-sidebar");
   }, [navigate]);
 
   const onProductsTextClick = useCallback(() => {
     navigate("/about-us");
+  }, [navigate]);
+
+  const onBlogText2Click = useCallback(() => {
+    navigate("/single-blog");
+  }, [navigate]);
+
+  const onShopTextClick = useCallback(() => {
+    navigate("/contact-us");
+  }, [navigate]);
+
+  const onHektoTextClick = useCallback(() => {
+    navigate("/");
   }, [navigate]);
 
   const onGroupContainer4Click = useCallback(() => {
@@ -28,11 +48,15 @@ const ProductDetails = () => {
           <div className={styles.blogDiv}>Blog</div>
           <div className={styles.latestNewsDiv}>Latest News</div>
           <div className={styles.allCategoriesDiv}>All Categories</div>
-          <div className={styles.newestAdditionsDiv}>Newest Additions</div>
+          <div className={styles.fAQsDiv} onClick={onFAQsTextClick}>
+            FAQs
+          </div>
           <div className={styles.discountsDiv}>Discounts</div>
           <div className={styles.bookingHistoryDiv}>Booking History</div>
           <div className={styles.ordersHistoryDiv}>Orders History</div>
-          <div className={styles.blogDiv1}>Blog</div>
+          <div className={styles.blogDiv1} onClick={onBlogText1Click}>
+            Blog
+          </div>
           <div className={styles.aboutUsDiv}>{`About Us `}</div>
           <div className={styles.contactUsDiv}>Contact Us</div>
           <b className={styles.mycribs}>Mycribs</b>
@@ -83,12 +107,12 @@ const ProductDetails = () => {
           <img
             className={styles.uilenvelopeAltIcon}
             alt=""
-            src="../uilenvelopealt6.svg"
+            src="../uilenvelopealt4.svg"
           />
           <img
             className={styles.bxbxPhoneCallIcon}
             alt=""
-            src="../bxbxphonecall6.svg"
+            src="../bxbxphonecall4.svg"
           />
           <img className={styles.groupIcon1} alt="" src="../group-176.svg" />
         </div>
@@ -99,8 +123,13 @@ const ProductDetails = () => {
           <div className={styles.productsDiv} onClick={onProductsTextClick}>
             About Us
           </div>
-          <div className={styles.blogDiv2}>{`Blog `}</div>
-          <div className={styles.shopDiv}>Contact</div>
+          <div
+            className={styles.blogDiv2}
+            onClick={onBlogText2Click}
+          >{`Blog `}</div>
+          <div className={styles.shopDiv} onClick={onShopTextClick}>
+            Contact
+          </div>
           <div className={styles.contactDiv}>Contact</div>
           <div className={styles.groupDiv3}>
             <div className={styles.rectangleDiv6} />
@@ -108,7 +137,9 @@ const ProductDetails = () => {
               <div className={styles.rectangleDiv7} />
             </div>
           </div>
-          <b className={styles.hektoB}>Mycribs</b>
+          <b className={styles.hektoB} onClick={onHektoTextClick}>
+            Mycribs
+          </b>
           <div className={styles.groupDiv5} onClick={onGroupContainer4Click}>
             <div className={styles.homeDiv1}>Home</div>
           </div>

@@ -126,7 +126,7 @@
   width: 1920px;
   height: 44px;
   text-align: left;
-  color: var(--color-gray-700);
+  color: var(--color-gray-800);
   font-family: var(--font-montserrat);
 }
 .groupDiv,
@@ -162,6 +162,7 @@
 }
 .allCategoriesDiv,
 .blogDiv1,
+.fAQsDiv,
 .latestNewsDiv {
   position: absolute;
   top: 33.19%;
@@ -169,46 +170,47 @@
   display: inline-block;
 }
 .allCategoriesDiv,
+.fAQsDiv,
 .latestNewsDiv {
   top: 41.54%;
 }
-.allCategoriesDiv {
+.allCategoriesDiv,
+.fAQsDiv {
   top: 49.9%;
+}
+.fAQsDiv {
+  top: 58.25%;
+  cursor: pointer;
 }
 .bookingHistoryDiv,
 .discountsDiv,
-.newestAdditionsDiv {
+.ordersHistoryDiv {
   position: absolute;
-  top: 58.25%;
-  left: 67.03%;
+  top: 41.13%;
+  left: 54.48%;
   display: inline-block;
 }
 .bookingHistoryDiv,
-.discountsDiv {
-  top: 41.13%;
-  left: 54.48%;
-}
-.bookingHistoryDiv {
+.ordersHistoryDiv {
   top: 49.48%;
 }
+.ordersHistoryDiv {
+  top: 57.83%;
+}
+.blogDiv2 {
+  top: 41.34%;
+  cursor: pointer;
+}
 .aboutUsDiv,
 .blogDiv2,
-.contactUsDiv,
-.ordersHistoryDiv {
+.contactUsDiv {
   position: absolute;
-  top: 57.83%;
-  left: 54.48%;
+  left: 40.63%;
   display: inline-block;
 }
-.aboutUsDiv,
-.blogDiv2,
-.contactUsDiv {
-  top: 41.34%;
-  left: 40.63%;
-}
-.aboutUsDiv,
-.contactUsDiv {
+.aboutUsDiv {
   top: 49.69%;
+  cursor: pointer;
 }
 .contactUsDiv {
   top: 58.04%;
@@ -300,7 +302,7 @@
 .rectangleDiv4 {
   height: 100%;
   bottom: 0;
-  background-color: var(--color-gray-1200);
+  background-color: var(--color-gray-1300);
 }
 .aetotechsAllRightsReserve {
   position: absolute;
@@ -338,7 +340,7 @@
   right: 0;
   bottom: 0;
   left: 0;
-  color: var(--color-gray-2600);
+  color: var(--color-gray-2700);
 }
 .footerDiv,
 .rectangleDiv5 {
@@ -380,7 +382,7 @@
   font-size: 13.49px;
   letter-spacing: 0.02em;
   font-weight: 500;
-  color: var(--color-gray-3300);
+  color: var(--color-gray-3400);
   display: inline-block;
   width: 484.37px;
   height: 15.73px;
@@ -541,7 +543,7 @@
   width: 667.68px;
   height: 137.16px;
   font-size: var(--font-size-6xs);
-  color: var(--color-gray-2500);
+  color: var(--color-gray-2600);
 }
 .rectangleIcon2 {
   position: absolute;
@@ -578,7 +580,7 @@
   width: 667.68px;
   height: 137.16px;
   font-size: var(--font-size-6xs);
-  color: var(--color-gray-2500);
+  color: var(--color-gray-2600);
 }
 .nextPostDiv,
 .rectangleDiv11 {
@@ -588,7 +590,7 @@
 }
 .rectangleDiv11 {
   border-radius: 2.31px;
-  background-color: var(--color-gray-100);
+  background-color: var(--color-gray-200);
   width: 882.69px;
   height: 45px;
 }
@@ -648,7 +650,7 @@
   position: absolute;
   top: 2708.5px;
   left: 375.5px;
-  border-top: 1px solid var(--color-gray-100);
+  border-top: 1px solid var(--color-gray-200);
   box-sizing: border-box;
   width: 868px;
   height: 1px;

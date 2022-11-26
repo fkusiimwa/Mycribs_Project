@@ -1,6 +1,34 @@
+import { useCallback } from "react";
+import { useNavigate } from "react-router-dom";
 import styles from "./Faq.module.css";
 
 const Faq = () => {
+  const navigate = useNavigate();
+
+  const onProductsTextClick = useCallback(() => {
+    navigate("/about-us");
+  }, [navigate]);
+
+  const onShopTextClick = useCallback(() => {
+    navigate("/contact-us");
+  }, [navigate]);
+
+  const onHektoTextClick = useCallback(() => {
+    navigate("/");
+  }, [navigate]);
+
+  const onFAQsTextClick = useCallback(() => {
+    navigate("/faq");
+  }, [navigate]);
+
+  const onBlogText2Click = useCallback(() => {
+    navigate("/single-blog");
+  }, [navigate]);
+
+  const onRectangle13Click = useCallback(() => {
+    navigate("/faq-message-sent");
+  }, [navigate]);
+
   return (
     <div className={styles.faqDiv}>
       <div className={styles.groupDiv}>
@@ -31,20 +59,24 @@ const Faq = () => {
             <img
               className={styles.uilenvelopeAltIcon}
               alt=""
-              src="../uilenvelopealt8.svg"
+              src="../uilenvelopealt1.svg"
             />
             <img
               className={styles.bxbxPhoneCallIcon}
               alt=""
-              src="../bxbxphonecall8.svg"
+              src="../bxbxphonecall1.svg"
             />
-            <img className={styles.groupIcon} alt="" src="../group-178.svg" />
+            <img className={styles.groupIcon} alt="" src="../group-171.svg" />
           </div>
           <div className={styles.navBarDiv}>
             <div className={styles.pagesDiv1}>Hostels</div>
-            <div className={styles.productsDiv}>About Us</div>
+            <div className={styles.productsDiv} onClick={onProductsTextClick}>
+              About Us
+            </div>
             <div className={styles.blogDiv}>{`Blog `}</div>
-            <div className={styles.shopDiv}>Contact</div>
+            <div className={styles.shopDiv} onClick={onShopTextClick}>
+              Contact
+            </div>
             <div className={styles.contactDiv}>Contact</div>
             <div className={styles.groupDiv3}>
               <div className={styles.rectangleDiv1} />
@@ -52,7 +84,9 @@ const Faq = () => {
                 <div className={styles.rectangleDiv2} />
               </div>
             </div>
-            <b className={styles.hektoB}>Mycribs</b>
+            <b className={styles.hektoB} onClick={onHektoTextClick}>
+              Mycribs
+            </b>
             <div className={styles.groupDiv5}>
               <div className={styles.homeDiv1}>Home</div>
             </div>
@@ -64,7 +98,7 @@ const Faq = () => {
             <img
               className={styles.uilsearchIcon}
               alt=""
-              src="../uilsearch8.svg"
+              src="../uilsearch9.svg"
             />
           </div>
         </div>
@@ -77,11 +111,15 @@ const Faq = () => {
           <div className={styles.blogDiv1}>Blog</div>
           <div className={styles.latestNewsDiv}>Latest News</div>
           <div className={styles.allCategoriesDiv}>All Categories</div>
-          <div className={styles.newestAdditionsDiv}>Newest Additions</div>
+          <div className={styles.fAQsDiv} onClick={onFAQsTextClick}>
+            FAQs
+          </div>
           <div className={styles.discountsDiv}>Discounts</div>
           <div className={styles.bookingHistoryDiv}>Booking History</div>
           <div className={styles.ordersHistoryDiv}>Orders History</div>
-          <div className={styles.blogDiv2}>Blog</div>
+          <div className={styles.blogDiv2} onClick={onBlogText2Click}>
+            Blog
+          </div>
           <div className={styles.aboutUsDiv}>{`About Us `}</div>
           <div className={styles.contactUsDiv}>Contact Us</div>
           <b className={styles.mycribs}>Mycribs</b>
@@ -104,7 +142,7 @@ const Faq = () => {
               ©Aetotechs - All Rights Reserved
             </div>
           </div>
-          <img className={styles.groupIcon1} alt="" src="../group-20515.svg" />
+          <img className={styles.groupIcon1} alt="" src="../group-20517.svg" />
         </div>
       </div>
       <div className={styles.groupDiv8}>
@@ -114,14 +152,14 @@ const Faq = () => {
             ©Aetotechs - All Rights Reserved
           </div>
         </div>
-        <img className={styles.groupIcon2} alt="" src="../group-20515.svg" />
+        <img className={styles.groupIcon2} alt="" src="../group-20517.svg" />
       </div>
       <div className={styles.groupDiv10}>
         <div className={styles.rectangleDiv8} />
         <div className={styles.rectangleDiv9} />
         <div className={styles.rectangleDiv10} />
         <div className={styles.rectangleDiv11} />
-        <div className={styles.rectangleDiv12} />
+        <div className={styles.rectangleDiv12} onClick={onRectangle13Click} />
       </div>
       <b className={styles.b}>*</b>
       <b className={styles.b1}>*</b>
@@ -142,8 +180,9 @@ const Faq = () => {
       <div className={styles.subjectDiv}>Subject</div>
       <div className={styles.typeYourMessage}>Type Your Message</div>
       <div className={styles.submitDiv}>{`Submit `}</div>
+      <div className={styles.submitDiv}>{`Submit `}</div>
       <b className={styles.askAQuestion}>Ask a Question</b>
-      <b className={styles.generelInformationB}>Generel Information</b>
+      <b className={styles.generalInformationB}>General Information</b>
       <div className={styles.loremIpsumDolorSitAmetCo}>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt sed
         tristique mollis vitae, consequat gravida sagittis.

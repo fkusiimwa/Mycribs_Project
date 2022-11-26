@@ -9,12 +9,44 @@ const ShopList = () => {
     navigate("/shop-left-sidebar");
   }, [navigate]);
 
+  const onProductsTextClick = useCallback(() => {
+    navigate("/about-us");
+  }, [navigate]);
+
+  const onBlogTextClick = useCallback(() => {
+    navigate("/single-blog");
+  }, [navigate]);
+
+  const onShopTextClick = useCallback(() => {
+    navigate("/contact-us");
+  }, [navigate]);
+
+  const onHektoTextClick = useCallback(() => {
+    navigate("/");
+  }, [navigate]);
+
   const onGroupContainer3Click = useCallback(() => {
     navigate("/");
   }, [navigate]);
 
+  const onFAQsTextClick = useCallback(() => {
+    navigate("/faq");
+  }, [navigate]);
+
+  const onBlogText2Click = useCallback(() => {
+    navigate("/single-blog");
+  }, [navigate]);
+
   const onGroupContainer12Click = useCallback(() => {
     navigate("/product-details");
+  }, [navigate]);
+
+  const onFAQsText1Click = useCallback(() => {
+    navigate("/faq");
+  }, [navigate]);
+
+  const onBlogText4Click = useCallback(() => {
+    navigate("/single-blog");
   }, [navigate]);
 
   return (
@@ -46,22 +78,29 @@ const ShopList = () => {
           <img
             className={styles.uilenvelopeAltIcon}
             alt=""
-            src="../uilenvelopealt13.svg"
+            src="../uilenvelopealt14.svg"
           />
           <img
             className={styles.bxbxPhoneCallIcon}
             alt=""
             src="../bxbxphonecall4.svg"
           />
-          <img className={styles.groupIcon} alt="" src="../group-174.svg" />
+          <img className={styles.groupIcon} alt="" src="../group-176.svg" />
         </div>
         <div className={styles.navBarDiv}>
           <div className={styles.pagesDiv1} onClick={onPagesText1Click}>
             Hostels
           </div>
-          <div className={styles.productsDiv}>About Us</div>
-          <div className={styles.blogDiv}>{`Blog `}</div>
-          <div className={styles.shopDiv}>Contact</div>
+          <div className={styles.productsDiv} onClick={onProductsTextClick}>
+            About Us
+          </div>
+          <div
+            className={styles.blogDiv}
+            onClick={onBlogTextClick}
+          >{`Blog `}</div>
+          <div className={styles.shopDiv} onClick={onShopTextClick}>
+            Contact
+          </div>
           <div className={styles.contactDiv}>Contact</div>
           <div className={styles.groupDiv2}>
             <div className={styles.rectangleDiv1} />
@@ -69,7 +108,9 @@ const ShopList = () => {
               <div className={styles.rectangleDiv2} />
             </div>
           </div>
-          <b className={styles.hektoB}>Mycribs</b>
+          <b className={styles.hektoB} onClick={onHektoTextClick}>
+            Mycribs
+          </b>
           <div className={styles.groupDiv4} onClick={onGroupContainer3Click}>
             <div className={styles.homeDiv1}>Home</div>
           </div>
@@ -81,7 +122,7 @@ const ShopList = () => {
           <img
             className={styles.uilsearchIcon}
             alt=""
-            src="../uilsearch14.svg"
+            src="../uilsearch15.svg"
           />
         </div>
       </div>
@@ -114,7 +155,7 @@ const ShopList = () => {
             <img
               className={styles.akarIconschevronDown1}
               alt=""
-              src="../akariconschevrondown13.svg"
+              src="../akariconschevrondown14.svg"
             />
             <div className={styles.bestMatchDiv}>Price</div>
           </div>
@@ -131,11 +172,15 @@ const ShopList = () => {
           <div className={styles.blogDiv1}>Blog</div>
           <div className={styles.latestNewsDiv}>Latest News</div>
           <div className={styles.allCategoriesDiv}>All Categories</div>
-          <div className={styles.newestAdditionsDiv}>Newest Additions</div>
+          <div className={styles.fAQsDiv} onClick={onFAQsTextClick}>
+            FAQs
+          </div>
           <div className={styles.discountsDiv}>Discounts</div>
           <div className={styles.bookingHistoryDiv}>Booking History</div>
           <div className={styles.ordersHistoryDiv}>Orders History</div>
-          <div className={styles.blogDiv2}>Blog</div>
+          <div className={styles.blogDiv2} onClick={onBlogText2Click}>
+            Blog
+          </div>
           <div className={styles.aboutUsDiv}>{`About Us `}</div>
           <div className={styles.contactUsDiv}>Contact Us</div>
           <b className={styles.mycribs}>Mycribs</b>
@@ -158,7 +203,7 @@ const ShopList = () => {
               ©Aetotechs - All Rights Reserved
             </div>
           </div>
-          <img className={styles.groupIcon1} alt="" src="../group-20525.svg" />
+          <img className={styles.groupIcon1} alt="" src="../group-20527.svg" />
         </div>
       </div>
       <div className={styles.groupDiv12} onClick={onGroupContainer12Click}>
@@ -491,11 +536,15 @@ const ShopList = () => {
           <div className={styles.blogDiv1}>Blog</div>
           <div className={styles.latestNewsDiv}>Latest News</div>
           <div className={styles.allCategoriesDiv}>All Categories</div>
-          <div className={styles.newestAdditionsDiv}>Newest Additions</div>
+          <div className={styles.fAQsDiv} onClick={onFAQsText1Click}>
+            FAQs
+          </div>
           <div className={styles.discountsDiv}>Discounts</div>
           <div className={styles.bookingHistoryDiv}>Booking History</div>
           <div className={styles.ordersHistoryDiv}>Orders History</div>
-          <div className={styles.blogDiv2}>Blog</div>
+          <div className={styles.blogDiv2} onClick={onBlogText4Click}>
+            Blog
+          </div>
           <div className={styles.aboutUsDiv}>{`About Us `}</div>
           <div className={styles.contactUsDiv}>Contact Us</div>
           <b className={styles.mycribs}>Mycribs</b>
@@ -518,7 +567,7 @@ const ShopList = () => {
               ©Aetotechs - All Rights Reserved
             </div>
           </div>
-          <img className={styles.groupIcon9} alt="" src="../group-20525.svg" />
+          <img className={styles.groupIcon9} alt="" src="../group-20527.svg" />
         </div>
       </div>
     </div>
