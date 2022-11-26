@@ -1,0 +1,118 @@
+.blogDiv,
+.contactDiv,
+.pagesDiv,
+.productsDiv,
+.shopDiv {
+  position: absolute;
+  top: 25%;
+  left: 22.43%;
+  line-height: 20px;
+  display: inline-block;
+}
+.blogDiv,
+.contactDiv,
+.productsDiv,
+.shopDiv {
+  left: 28.89%;
+}
+.blogDiv,
+.contactDiv,
+.shopDiv {
+  left: 37.3%;
+}
+.contactDiv,
+.shopDiv {
+  left: 42.99%;
+}
+.contactDiv {
+  left: 49.02%;
+  display: none;
+}
+.rectangleDiv {
+  width: 100%;
+  left: 0;
+  border: 2px solid var(--color-gray-1300);
+  box-sizing: border-box;
+}
+.groupDiv,
+.groupDiv1,
+.rectangleDiv,
+.rectangleDiv1 {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+.rectangleDiv1 {
+  width: 100%;
+  left: 0;
+  background-color: var(--pink);
+}
+.groupDiv,
+.groupDiv1 {
+  width: 16.09%;
+  left: 83.91%;
+}
+.groupDiv {
+  width: 26.93%;
+  left: 73.07%;
+}
+.hektoB,
+.homeDiv {
+  position: absolute;
+  left: 0;
+  display: inline-block;
+}
+.hektoB {
+  top: 7.5%;
+  font-size: var(--font-size-11xl);
+  font-family: var(--font-montserrat);
+}
+.homeDiv {
+  top: 0;
+  line-height: 20px;
+}
+.groupDiv2 {
+  position: absolute;
+  height: 50%;
+  width: 3.65%;
+  top: 25%;
+  right: 80.54%;
+  bottom: 25%;
+  left: 15.8%;
+  cursor: pointer;
+  color: var(--pink);
+}
+.akarIconschevronDown,
+.uilsearchIcon {
+  position: absolute;
+  height: 30%;
+  width: 1.02%;
+  top: 35%;
+  right: 79.35%;
+  bottom: 35%;
+  left: 19.63%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.uilsearchIcon {
+  height: 60%;
+  width: 2.04%;
+  top: 20%;
+  right: 1.1%;
+  bottom: 20%;
+  left: 96.86%;
+}
+.navBarDiv {
+  position: absolute;
+  top: 63px;
+  left: 371px;
+  width: 1177px;
+  height: 40px;
+  text-align: left;
+  font-size: var(--paragraph-text-size);
+  color: var(--color-indigo-1200);
+  font-family: var(--paragraph-text);
+}

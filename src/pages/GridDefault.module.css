@@ -1,0 +1,1231 @@
+.rectangleIcon {
+  position: absolute;
+  top: 125px;
+  left: 0;
+  width: 1920px;
+  height: 286px;
+}
+.div,
+.div1 {
+  position: absolute;
+  display: inline-block;
+}
+.div {
+  top: 45px;
+  left: 70px;
+  font-weight: 500;
+}
+.div1 {
+  left: 123px;
+  color: var(--pink);
+}
+.div1,
+.homeDiv,
+.pagesDiv {
+  top: 45px;
+  font-weight: 500;
+}
+.homeDiv {
+  position: absolute;
+  left: 22px;
+  display: inline-block;
+}
+.pagesDiv {
+  left: 78px;
+}
+.hostelsGridView,
+.hostelsGridView1,
+.pagesDiv {
+  position: absolute;
+  display: inline-block;
+}
+.hostelsGridView {
+  top: 45px;
+  left: 127px;
+  font-weight: 500;
+  color: var(--pink);
+}
+.hostelsGridView1 {
+  top: 0;
+  left: 0;
+  font-size: var(--font-size-13xl);
+  font-family: var(--font-montserrat);
+  color: var(--color-indigo-900);
+}
+.groupDiv {
+  position: absolute;
+  top: 221px;
+  left: 353px;
+  width: 357px;
+  height: 64px;
+  font-size: var(--paragraph-text-size);
+  color: var(--color-black);
+  font-family: var(--paragraph-text);
+}
+.ecommerceAcceoriesFashion {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: var(--font-size-7xl);
+  display: inline-block;
+  font-family: var(--font-montserrat);
+  color: var(--text);
+}
+.about9620Results062Seco {
+  position: absolute;
+  top: 68.18%;
+  left: 0;
+  font-size: var(--font-size-7xs);
+  color: var(--sub-text-color);
+  display: inline-block;
+}
+.perPageDiv,
+.sortByDiv,
+.viewDiv {
+  position: absolute;
+  top: 27.27%;
+  left: 48.59%;
+  display: inline-block;
+}
+.sortByDiv,
+.viewDiv {
+  left: 61.91%;
+}
+.viewDiv {
+  left: 77.63%;
+}
+.rectangleDiv {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border: 1px solid var(--color-gray-1300);
+  box-sizing: border-box;
+}
+.groupDiv1 {
+  position: absolute;
+  height: 63.64%;
+  width: 8.2%;
+  top: 86.36%;
+  right: 24.42%;
+  bottom: -50%;
+  left: 67.38%;
+}
+.claritygridViewSolidIcon,
+.faSolidlistIcon {
+  position: absolute;
+  height: 27.27%;
+  width: 1.02%;
+  top: 40.91%;
+  right: 17.59%;
+  bottom: 31.82%;
+  left: 81.38%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  cursor: pointer;
+}
+.faSolidlistIcon {
+  right: 16.14%;
+  left: 82.84%;
+}
+.groupDiv2 {
+  position: absolute;
+  height: 56.82%;
+  width: 4.7%;
+  top: 79.55%;
+  right: 40.39%;
+  bottom: -36.36%;
+  left: 54.91%;
+}
+.akarIconschevronDown {
+  position: absolute;
+  height: 66.67%;
+  width: 16.22%;
+  top: 16.67%;
+  right: 0;
+  bottom: 16.67%;
+  left: 83.78%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.bestMatchDiv {
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 18px;
+  display: inline-block;
+}
+.groupDiv3,
+.groupDiv4 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.groupDiv3 {
+  height: 40.91%;
+  width: 6.32%;
+  top: 34.09%;
+  right: 25.36%;
+  bottom: 25%;
+  left: 68.32%;
+  font-size: var(--font-size-7xs);
+  color: var(--sub-text-color);
+}
+.groupDiv5 {
+  position: absolute;
+  height: 68.18%;
+  width: 13.83%;
+  top: 20.45%;
+  right: 0;
+  bottom: 11.36%;
+  left: 86.17%;
+}
+.pageSortBy {
+  position: absolute;
+  top: 535px;
+  left: 374px;
+  width: 1171px;
+  height: 44px;
+  text-align: left;
+  font-size: var(--paragraph-text-size);
+  color: var(--sale-tage-coloe);
+  font-family: var(--paragraph-text);
+}
+.rectangleIcon1 {
+  position: absolute;
+  height: 76.5%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 23.5%;
+  left: 0;
+  border-radius: var(--br-2xl);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.jonathanAdlerChair {
+  position: absolute;
+  top: 81.42%;
+  left: 20.74%;
+  display: inline-block;
+}
+.groupIcon {
+  position: absolute;
+  height: 2.73%;
+  width: 15.56%;
+  top: 88.52%;
+  right: 42.22%;
+  bottom: 8.74%;
+  left: 42.22%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.div2,
+.div3 {
+  position: absolute;
+  top: 0;
+}
+.div2 {
+  left: 74.36%;
+  text-decoration: line-through;
+  display: none;
+}
+.div3 {
+  left: 0;
+  color: var(--text);
+  display: inline-block;
+}
+.groupDiv8 {
+  position: absolute;
+  height: 4.64%;
+  width: 43.33%;
+  top: 95.36%;
+  right: 38.15%;
+  bottom: 0;
+  left: 18.52%;
+  font-size: var(--font-size-3xs);
+  color: var(--pink);
+}
+.groupIcon1 {
+  position: absolute;
+  height: 22.4%;
+  width: 11.11%;
+  top: 47.54%;
+  right: 85.19%;
+  bottom: 30.05%;
+  left: 3.7%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  display: none;
+}
+.groupDiv6 {
+  position: absolute;
+  height: 100.83%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: -0.83%;
+  left: 0;
+}
+.image1164Icon {
+  height: 46.01%;
+  width: 61.85%;
+  top: 19.56%;
+  right: 20.74%;
+  bottom: 34.44%;
+  left: 17.41%;
+  display: none;
+}
+.image1164Icon,
+.image1172Icon,
+.image9Icon {
+  position: absolute;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.image1172Icon {
+  height: 54.82%;
+  width: 87.78%;
+  top: 14.05%;
+  right: 6.3%;
+  bottom: 31.13%;
+  left: 5.93%;
+  display: none;
+}
+.image9Icon {
+  height: 55.37%;
+  width: 74.44%;
+  top: 13.77%;
+  right: 15.19%;
+  bottom: 30.85%;
+  left: 10.37%;
+}
+.purepng1Icon {
+  height: 39.67%;
+  width: 42.22%;
+  top: 18.73%;
+  right: 30.74%;
+  bottom: 41.6%;
+  left: 27.04%;
+  mix-blend-mode: normal;
+}
+.czNmcy1wcml2YXRlL3Jhd3BpeGVsX2Icon,
+.image1173Icon,
+.purepng1Icon {
+  position: absolute;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  display: none;
+}
+.czNmcy1wcml2YXRlL3Jhd3BpeGVsX2Icon {
+  height: 48.48%;
+  width: 65.19%;
+  top: 17.08%;
+  right: 19.26%;
+  bottom: 34.44%;
+  left: 15.56%;
+  mix-blend-mode: darken;
+}
+.image1173Icon {
+  height: 55.37%;
+  width: 74.44%;
+  top: 13.77%;
+  right: 14.44%;
+  bottom: 30.85%;
+  left: 11.11%;
+}
+.icon {
+  height: 51.79%;
+  width: 69.63%;
+  top: 17.36%;
+  right: 17.04%;
+  bottom: 30.85%;
+  left: 13.33%;
+}
+.cam2Icon,
+.drone2Icon,
+.icon,
+.unnamed1Icon {
+  position: absolute;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  display: none;
+}
+.drone2Icon {
+  height: 31.68%;
+  width: 78.89%;
+  top: 27%;
+  right: 8.52%;
+  bottom: 41.32%;
+  left: 12.59%;
+  mix-blend-mode: darken;
+}
+.cam2Icon,
+.unnamed1Icon {
+  height: 38.29%;
+  width: 47.41%;
+  top: 23.69%;
+  right: 24.44%;
+  bottom: 38.02%;
+  left: 28.15%;
+}
+.cam2Icon {
+  height: 43.53%;
+  width: 62.59%;
+  top: 18.46%;
+  right: 17.04%;
+  left: 20.37%;
+}
+.movadoConnect15621730942Icon,
+.res7e24bf6d78bbb2518489d0af84Icon {
+  position: absolute;
+  top: 74px;
+  left: 61px;
+  width: 154px;
+  height: 158px;
+  object-fit: cover;
+  display: none;
+}
+.res7e24bf6d78bbb2518489d0af84Icon {
+  left: 50px;
+  width: 170px;
+  height: 151px;
+}
+.ecommerceAccesoriesDiv {
+  position: absolute;
+  top: 723px;
+  left: 374px;
+  width: 270px;
+  height: 363px;
+  cursor: pointer;
+}
+.div4,
+.jonathanAdlerChair1 {
+  position: absolute;
+  top: 81.42%;
+  left: 35.19%;
+  display: inline-block;
+}
+.div4 {
+  top: 0;
+  left: 76.15%;
+  text-decoration: line-through;
+  display: none;
+}
+.groupDiv11 {
+  position: absolute;
+  height: 4.64%;
+  width: 40.37%;
+  top: 95.36%;
+  right: 39.63%;
+  bottom: 0;
+  left: 20%;
+  font-size: var(--font-size-3xs);
+  color: var(--pink);
+}
+.image1173Icon1,
+.image9Icon1 {
+  position: absolute;
+  height: 55.37%;
+  width: 74.44%;
+  top: 13.77%;
+  bottom: 30.85%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.image9Icon1 {
+  right: 15.19%;
+  left: 10.37%;
+  display: none;
+}
+.image1173Icon1 {
+  right: 14.44%;
+  left: 11.11%;
+}
+.ecommerceAccesoriesDiv1 {
+  position: absolute;
+  top: 723px;
+  left: 1020px;
+  width: 270px;
+  height: 363px;
+}
+.div6,
+.jonathanAdlerChair2 {
+  position: absolute;
+  top: 81.42%;
+  left: 34.81%;
+  display: inline-block;
+}
+.div6 {
+  top: 0;
+  left: 97.32%;
+  text-decoration: line-through;
+}
+.groupDiv14 {
+  position: absolute;
+  height: 4.64%;
+  width: 41.48%;
+  top: 95.36%;
+  right: 39.26%;
+  bottom: 0;
+  left: 19.26%;
+  font-size: var(--font-size-3xs);
+  color: var(--pink);
+}
+.div8 {
+  position: absolute;
+  height: 51.79%;
+  width: 69.63%;
+  top: 17.36%;
+  right: 17.04%;
+  bottom: 30.85%;
+  left: 13.33%;
+}
+.ecommerceAccesoriesDiv2 {
+  position: absolute;
+  top: 723px;
+  left: 1343px;
+  width: 270px;
+  height: 363px;
+}
+.div9,
+.rectangleDiv3 {
+  position: absolute;
+  top: 0;
+}
+.rectangleDiv3 {
+  height: 76.5%;
+  width: 100%;
+  right: 0;
+  bottom: 23.5%;
+  left: 0;
+  background-color: var(--color-gray-200);
+}
+.div9 {
+  left: 74.78%;
+  text-decoration: line-through;
+  display: none;
+}
+.groupDiv17 {
+  position: absolute;
+  height: 4.64%;
+  width: 42.59%;
+  top: 95.36%;
+  right: 38.52%;
+  bottom: 0;
+  left: 18.89%;
+  font-size: var(--font-size-3xs);
+  color: var(--pink);
+}
+.image1164Icon3 {
+  position: absolute;
+  height: 46.01%;
+  width: 61.85%;
+  top: 19.56%;
+  right: 20.74%;
+  bottom: 34.44%;
+  left: 17.41%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.ecommerceAccesoriesDiv3,
+.icon3 {
+  position: absolute;
+  top: 1167px;
+  left: 1343px;
+  width: 270px;
+  height: 363px;
+}
+.icon3 {
+  height: 51.79%;
+  width: 69.63%;
+  top: 17.36%;
+  right: 17.04%;
+  bottom: 30.85%;
+  left: 13.33%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.ecommerceAccesoriesDiv4 {
+  position: absolute;
+  top: 1611px;
+  left: 1343px;
+  width: 270px;
+  height: 363px;
+}
+.div13 {
+  position: absolute;
+  top: 0;
+  left: 73.77%;
+  text-decoration: line-through;
+  display: none;
+}
+.groupDiv23 {
+  position: absolute;
+  height: 4.64%;
+  width: 45.19%;
+  top: 95.36%;
+  right: 37.41%;
+  bottom: 0;
+  left: 17.41%;
+  font-size: var(--font-size-3xs);
+  color: var(--pink);
+}
+.czNmcy1wcml2YXRlL3Jhd3BpeGVsX2Icon5 {
+  position: absolute;
+  height: 48.48%;
+  width: 65.19%;
+  top: 17.08%;
+  right: 19.26%;
+  bottom: 34.44%;
+  left: 15.56%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  mix-blend-mode: darken;
+}
+.ecommerceAccesoriesDiv5 {
+  position: absolute;
+  top: 1611px;
+  left: 1020px;
+  width: 270px;
+  height: 363px;
+}
+.div15 {
+  position: absolute;
+  top: 0;
+  left: 77.36%;
+  text-decoration: line-through;
+  display: none;
+}
+.cam2Icon6,
+.groupDiv26 {
+  position: absolute;
+  left: 20.37%;
+}
+.groupDiv26 {
+  height: 4.64%;
+  width: 39.26%;
+  top: 95.36%;
+  right: 40.37%;
+  bottom: 0;
+  font-size: var(--font-size-3xs);
+  color: var(--pink);
+}
+.cam2Icon6 {
+  height: 43.53%;
+  width: 62.59%;
+  top: 18.46%;
+  right: 17.04%;
+  bottom: 38.02%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.ecommerceAccesoriesDiv6 {
+  position: absolute;
+  top: 1611px;
+  left: 697px;
+  width: 270px;
+  height: 363px;
+}
+.div17,
+.jonathanAdlerChair7 {
+  position: absolute;
+  top: 81.42%;
+  left: 34.44%;
+  display: inline-block;
+}
+.div17 {
+  top: 0;
+  left: 84.07%;
+  text-decoration: line-through;
+  display: none;
+}
+.groupDiv29 {
+  position: absolute;
+  height: 4.64%;
+  width: 41.85%;
+  top: 95.36%;
+  right: 38.89%;
+  bottom: 0;
+  left: 19.26%;
+  font-size: var(--font-size-3xs);
+  color: var(--pink);
+}
+.res7e24bf6d78bbb2518489d0af84Icon7 {
+  position: absolute;
+  top: 74px;
+  left: 50px;
+  width: 170px;
+  height: 151px;
+  object-fit: cover;
+}
+.ecommerceAccesoriesDiv7,
+.purepng1Icon8 {
+  position: absolute;
+  top: 1611px;
+  left: 374px;
+  width: 270px;
+  height: 363px;
+}
+.purepng1Icon8 {
+  height: 39.67%;
+  width: 42.22%;
+  top: 18.73%;
+  right: 30.74%;
+  bottom: 41.6%;
+  left: 27.04%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  mix-blend-mode: normal;
+}
+.ecommerceAccesoriesDiv8 {
+  position: absolute;
+  top: 1167px;
+  left: 1020px;
+  width: 270px;
+  height: 363px;
+}
+.jonathanAdlerChair9 {
+  position: absolute;
+  top: 81.42%;
+  left: 35.56%;
+  display: inline-block;
+}
+.movadoConnect15621730942Icon9 {
+  position: absolute;
+  top: 74px;
+  left: 61px;
+  width: 154px;
+  height: 158px;
+  object-fit: cover;
+}
+.ecommerceAccesoriesDiv9 {
+  position: absolute;
+  top: 1167px;
+  left: 697px;
+  width: 270px;
+  height: 363px;
+}
+.div23 {
+  position: absolute;
+  top: 0;
+  left: 83.33%;
+  text-decoration: line-through;
+  display: none;
+}
+.groupDiv38 {
+  position: absolute;
+  height: 4.64%;
+  width: 42.22%;
+  top: 95.36%;
+  right: 38.89%;
+  bottom: 0;
+  left: 18.89%;
+  font-size: var(--font-size-3xs);
+  color: var(--pink);
+}
+.unnamed1Icon10 {
+  position: absolute;
+  height: 38.29%;
+  width: 47.41%;
+  top: 23.69%;
+  right: 24.44%;
+  bottom: 38.02%;
+  left: 28.15%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.ecommerceAccesoriesDiv10 {
+  position: absolute;
+  top: 1167px;
+  left: 374px;
+  width: 270px;
+  height: 363px;
+}
+.groupIcon23,
+.image1165Icon {
+  position: absolute;
+  height: 31.15%;
+  width: 40.74%;
+  top: 38.8%;
+  right: 70%;
+  bottom: 30.05%;
+  left: -10.74%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.image1165Icon {
+  height: 46.56%;
+  width: 62.59%;
+  top: 19.56%;
+  right: 20.37%;
+  bottom: 33.88%;
+  left: 17.04%;
+  object-fit: cover;
+  display: none;
+}
+.ecommerceAccesoriesDiv11,
+.rectangleDiv11 {
+  position: absolute;
+  top: 723px;
+  left: 697px;
+  width: 270px;
+  height: 363px;
+}
+.rectangleDiv11 {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--bg-shade);
+}
+.myAccountDiv,
+.topCategoriesDiv {
+  position: absolute;
+  top: 32.99%;
+  left: 40.63%;
+  display: inline-block;
+}
+.myAccountDiv {
+  top: 32.78%;
+  left: 54.48%;
+}
+.allCategoriesDiv,
+.blogDiv,
+.latestNewsDiv {
+  position: absolute;
+  top: 33.19%;
+  left: 67.03%;
+  display: inline-block;
+}
+.allCategoriesDiv,
+.latestNewsDiv {
+  top: 41.54%;
+}
+.allCategoriesDiv {
+  top: 49.9%;
+}
+.bookingHistoryDiv,
+.discountsDiv,
+.newestAdditionsDiv {
+  position: absolute;
+  top: 58.25%;
+  left: 67.03%;
+  display: inline-block;
+}
+.bookingHistoryDiv,
+.discountsDiv {
+  top: 41.13%;
+  left: 54.48%;
+}
+.bookingHistoryDiv {
+  top: 49.48%;
+}
+.aboutUsDiv,
+.blogDiv1,
+.contactUsDiv,
+.ordersHistoryDiv {
+  position: absolute;
+  top: 57.83%;
+  left: 54.48%;
+  display: inline-block;
+}
+.aboutUsDiv,
+.blogDiv1,
+.contactUsDiv {
+  top: 41.34%;
+  left: 40.63%;
+}
+.aboutUsDiv,
+.contactUsDiv {
+  top: 49.69%;
+}
+.contactUsDiv {
+  top: 58.04%;
+}
+.categoriesDiv,
+.myPageDiv,
+.mycribs,
+.pagesDiv1 {
+  position: absolute;
+  top: 19.83%;
+  left: 16.15%;
+  font-size: var(--font-size-14xl);
+  display: inline-block;
+  font-family: var(--font-montserrat);
+  color: var(--color-black);
+}
+.categoriesDiv,
+.myPageDiv,
+.pagesDiv1 {
+  top: 19.62%;
+  left: 40.63%;
+  font-size: var(--font-size-7xl);
+}
+.myPageDiv,
+.pagesDiv1 {
+  left: 54.53%;
+}
+.pagesDiv1 {
+  left: 67.03%;
+}
+.contactInfoDiv,
+.plot32ChurchRoadEntebbeUg {
+  position: absolute;
+  top: 48.64%;
+  left: 16.04%;
+  display: inline-block;
+}
+.plot32ChurchRoadEntebbeUg {
+  top: 54.7%;
+}
+.rectangleDiv12 {
+  position: absolute;
+  height: 9.19%;
+  width: 19.64%;
+  top: 34.24%;
+  right: 64.27%;
+  bottom: 56.58%;
+  left: 16.09%;
+  border-radius: var(--br-xs);
+  background-color: var(--white);
+  opacity: 0.45;
+}
+.enterEmailAddress {
+  position: absolute;
+  top: 37.16%;
+  left: 17.14%;
+  display: inline-block;
+}
+.rectangleDiv13 {
+  position: absolute;
+  height: 8.14%;
+  width: 7.03%;
+  top: 34.86%;
+  right: 64.38%;
+  bottom: 56.99%;
+  left: 28.59%;
+  border-radius: var(--br-xs);
+  background-color: var(--pink);
+}
+.signUpDiv {
+  position: absolute;
+  top: 37.16%;
+  left: 30.63%;
+  font-weight: 500;
+  font-family: var(--font-roboto);
+  color: var(--bg-shade);
+  display: inline-block;
+}
+.footerDiv1,
+.rectangleDiv14 {
+  position: absolute;
+  height: 90.04%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 9.96%;
+  left: 0;
+}
+.rectangleDiv14 {
+  height: 100%;
+  bottom: 0;
+  background-color: var(--color-gray-1200);
+}
+.aetotechsAllRightsReserve {
+  position: absolute;
+  top: 32.08%;
+  left: 19.64%;
+  font-weight: 600;
+  display: inline-block;
+}
+.groupIcon24 {
+  position: absolute;
+  height: 36.64%;
+  width: 4.17%;
+  top: 32.08%;
+  right: 30.36%;
+  bottom: 31.29%;
+  left: 65.47%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.footerDiv,
+.groupDiv42 {
+  position: absolute;
+  left: 0;
+}
+.groupDiv42 {
+  height: 9.96%;
+  width: 100%;
+  top: 90.04%;
+  right: 0;
+  bottom: 0;
+  color: var(--color-gray-2600);
+}
+.footerDiv {
+  top: 2233px;
+  width: 1920px;
+  height: 532px;
+  text-align: left;
+  font-size: var(--paragraph-text-size);
+  color: var(--sub-text-color);
+  font-family: var(--paragraph-text);
+}
+.rectangleDiv15 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--violet);
+}
+.englishDiv,
+.uSDDiv {
+  position: absolute;
+  top: 31.82%;
+  left: 62.08%;
+  display: none;
+}
+.uSDDiv {
+  left: 66.67%;
+}
+.div27,
+.loginDiv,
+.mhhasanulgmailcomDiv,
+.wishlistDiv {
+  position: absolute;
+  top: 31.82%;
+  left: 70.1%;
+  display: inline-block;
+}
+.div27,
+.mhhasanulgmailcomDiv,
+.wishlistDiv {
+  left: 74.01%;
+}
+.div27,
+.mhhasanulgmailcomDiv {
+  top: 29.55%;
+  left: 20.99%;
+}
+.div27 {
+  top: 31.82%;
+  left: 33.85%;
+}
+.bxbxPhoneCallIcon,
+.groupIcon25,
+.uilenvelopeAltIcon {
+  position: absolute;
+  height: 36.36%;
+  width: 0.83%;
+  top: 31.82%;
+  right: 79.53%;
+  bottom: 31.82%;
+  left: 19.64%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.bxbxPhoneCallIcon,
+.groupIcon25 {
+  right: 66.77%;
+  left: 32.4%;
+}
+.groupIcon25 {
+  height: 54.55%;
+  width: 8.28%;
+  top: 20.45%;
+  right: 19.38%;
+  bottom: 25%;
+  left: 72.34%;
+}
+.headingBarDiv {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1920px;
+  height: 44px;
+  text-align: left;
+  font-size: var(--paragraph-text-size);
+  color: var(--color-gray-700);
+}
+.blogDiv2,
+.contactDiv,
+.pagesDiv2,
+.productsDiv,
+.shopDiv {
+  position: absolute;
+  top: 25%;
+  line-height: 20px;
+  display: inline-block;
+}
+.pagesDiv2 {
+  left: 22.43%;
+  cursor: pointer;
+}
+.blogDiv2,
+.contactDiv,
+.productsDiv,
+.shopDiv {
+  left: 28.89%;
+}
+.blogDiv2,
+.contactDiv,
+.shopDiv {
+  left: 37.3%;
+}
+.contactDiv,
+.shopDiv {
+  left: 42.99%;
+}
+.contactDiv {
+  left: 49.02%;
+  display: none;
+}
+.rectangleDiv16 {
+  width: 100%;
+  left: 0;
+  border: 2px solid var(--color-gray-1300);
+  box-sizing: border-box;
+}
+.groupDiv44,
+.groupDiv45,
+.rectangleDiv16,
+.rectangleDiv17 {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+.rectangleDiv17 {
+  width: 100%;
+  left: 0;
+  background-color: var(--pink);
+}
+.groupDiv44,
+.groupDiv45 {
+  width: 16.09%;
+  left: 83.91%;
+}
+.groupDiv44 {
+  width: 26.93%;
+  left: 73.07%;
+}
+.hektoB,
+.homeDiv1 {
+  position: absolute;
+  left: 0;
+  display: inline-block;
+}
+.hektoB {
+  top: 7.5%;
+  font-size: var(--font-size-11xl);
+  font-family: var(--font-montserrat);
+}
+.homeDiv1 {
+  top: 0;
+  line-height: 20px;
+}
+.groupDiv46 {
+  position: absolute;
+  height: 50%;
+  width: 3.65%;
+  top: 25%;
+  right: 80.54%;
+  bottom: 25%;
+  left: 15.8%;
+  cursor: pointer;
+  color: var(--pink);
+}
+.akarIconschevronDown1,
+.uilsearchIcon {
+  position: absolute;
+  height: 30%;
+  width: 1.02%;
+  top: 35%;
+  right: 79.35%;
+  bottom: 35%;
+  left: 19.63%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.uilsearchIcon {
+  height: 60%;
+  width: 2.04%;
+  top: 20%;
+  right: 1.1%;
+  bottom: 20%;
+  left: 96.86%;
+}
+.navBarDiv {
+  position: absolute;
+  top: 63px;
+  left: 371px;
+  width: 1177px;
+  height: 40px;
+  text-align: left;
+  font-size: var(--paragraph-text-size);
+  color: var(--color-indigo-1200);
+  font-family: var(--paragraph-text);
+}
+.image1174Icon {
+  position: absolute;
+  top: 2057px;
+  left: 508px;
+  width: 904px;
+  height: 93px;
+  object-fit: cover;
+}
+.gridDefaultDiv {
+  position: relative;
+  background-color: var(--white);
+  width: 100%;
+  height: 2765px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-3xl);
+  color: var(--text);
+  font-family: var(--font-montserrat);
+}

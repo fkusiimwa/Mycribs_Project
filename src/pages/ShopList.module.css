@@ -1,0 +1,898 @@
+.rectangleIcon {
+  position: absolute;
+  top: 125px;
+  left: 0;
+  width: 1920px;
+  height: 286px;
+}
+.div {
+  position: absolute;
+  left: 141px;
+  display: inline-block;
+}
+.div,
+.homeDiv,
+.pagesDiv {
+  top: 45px;
+  font-weight: 500;
+}
+.homeDiv {
+  position: absolute;
+  left: 93px;
+  display: inline-block;
+}
+.pagesDiv {
+  left: 149px;
+}
+.hostelsListDiv,
+.hostelsListView,
+.pagesDiv {
+  position: absolute;
+  display: inline-block;
+}
+.hostelsListDiv {
+  top: 45px;
+  left: 194px;
+  font-weight: 500;
+  color: var(--pink);
+}
+.hostelsListView {
+  top: 0;
+  left: 0;
+  font-size: var(--font-size-13xl);
+  font-family: var(--font-montserrat);
+  color: var(--color-indigo-900);
+}
+.groupDiv1 {
+  position: absolute;
+  top: 221px;
+  left: 282px;
+  width: 345px;
+  height: 64px;
+  text-align: center;
+}
+.rectangleDiv {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--violet);
+}
+.englishDiv,
+.uSDDiv {
+  position: absolute;
+  top: 31.82%;
+  left: 62.08%;
+  display: none;
+}
+.uSDDiv {
+  left: 66.67%;
+}
+.div2,
+.loginDiv,
+.mhhasanulgmailcomDiv,
+.wishlistDiv {
+  position: absolute;
+  top: 31.82%;
+  left: 70.1%;
+  display: inline-block;
+}
+.div2,
+.mhhasanulgmailcomDiv,
+.wishlistDiv {
+  left: 74.01%;
+}
+.div2,
+.mhhasanulgmailcomDiv {
+  top: 29.55%;
+  left: 20.99%;
+}
+.div2 {
+  top: 31.82%;
+  left: 33.85%;
+}
+.bxbxPhoneCallIcon,
+.groupIcon,
+.uilenvelopeAltIcon {
+  position: absolute;
+  height: 36.36%;
+  width: 0.83%;
+  top: 31.82%;
+  right: 79.53%;
+  bottom: 31.82%;
+  left: 19.64%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.bxbxPhoneCallIcon,
+.groupIcon {
+  right: 66.77%;
+  left: 32.4%;
+}
+.groupIcon {
+  height: 54.55%;
+  width: 8.28%;
+  top: 20.45%;
+  right: 19.38%;
+  bottom: 25%;
+  left: 72.34%;
+}
+.headingBarDiv {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1920px;
+  height: 44px;
+  color: var(--color-gray-700);
+  font-family: var(--font-montserrat);
+}
+.blogDiv,
+.contactDiv,
+.pagesDiv1,
+.productsDiv,
+.shopDiv {
+  position: absolute;
+  top: 25%;
+  line-height: 20px;
+  display: inline-block;
+}
+.pagesDiv1 {
+  left: 22.43%;
+  cursor: pointer;
+}
+.blogDiv,
+.contactDiv,
+.productsDiv,
+.shopDiv {
+  left: 28.89%;
+}
+.blogDiv,
+.contactDiv,
+.shopDiv {
+  left: 37.3%;
+}
+.contactDiv,
+.shopDiv {
+  left: 42.99%;
+}
+.contactDiv {
+  left: 49.02%;
+  display: none;
+}
+.rectangleDiv1 {
+  width: 100%;
+  left: 0;
+  border: 2px solid var(--color-gray-1300);
+  box-sizing: border-box;
+}
+.groupDiv2,
+.groupDiv3,
+.rectangleDiv1,
+.rectangleDiv2 {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+.rectangleDiv2 {
+  width: 100%;
+  left: 0;
+  background-color: var(--pink);
+}
+.groupDiv2,
+.groupDiv3 {
+  width: 16.09%;
+  left: 83.91%;
+}
+.groupDiv2 {
+  width: 26.93%;
+  left: 73.07%;
+}
+.hektoB,
+.homeDiv1 {
+  position: absolute;
+  left: 0;
+  display: inline-block;
+}
+.hektoB {
+  top: 7.5%;
+  font-size: var(--font-size-11xl);
+  font-family: var(--font-montserrat);
+}
+.homeDiv1 {
+  top: 0;
+  line-height: 20px;
+}
+.groupDiv4 {
+  position: absolute;
+  height: 50%;
+  width: 3.65%;
+  top: 25%;
+  right: 80.54%;
+  bottom: 25%;
+  left: 15.8%;
+  cursor: pointer;
+  color: var(--pink);
+}
+.akarIconschevronDown,
+.uilsearchIcon {
+  position: absolute;
+  height: 30%;
+  width: 1.02%;
+  top: 35%;
+  right: 79.35%;
+  bottom: 35%;
+  left: 19.63%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.uilsearchIcon {
+  height: 60%;
+  width: 2.04%;
+  top: 20%;
+  right: 1.1%;
+  bottom: 20%;
+  left: 96.86%;
+}
+.groupDiv,
+.navBarDiv {
+  position: absolute;
+  top: 63px;
+  left: 371px;
+  width: 1177px;
+  height: 40px;
+  color: var(--color-indigo-1200);
+}
+.groupDiv {
+  top: 0;
+  left: 0;
+  width: 1920px;
+  height: 411px;
+  font-size: var(--paragraph-text-size);
+  color: var(--color-black);
+  font-family: var(--paragraph-text);
+}
+.ecommerceAcceoriesFashion {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: var(--font-size-7xl);
+  display: inline-block;
+  font-family: var(--font-montserrat);
+  color: var(--text);
+}
+.about9620Results062Seco {
+  position: absolute;
+  top: 68.18%;
+  left: 0;
+  font-size: var(--font-size-7xs);
+  color: var(--sub-text-color);
+  display: inline-block;
+}
+.perPageDiv,
+.sortByDiv,
+.viewDiv {
+  position: absolute;
+  top: 27.27%;
+  left: 48.59%;
+  display: inline-block;
+}
+.sortByDiv,
+.viewDiv {
+  left: 61.91%;
+}
+.viewDiv {
+  left: 77.63%;
+}
+.rectangleDiv3 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border: 1px solid var(--color-gray-1300);
+  box-sizing: border-box;
+}
+.groupDiv5 {
+  position: absolute;
+  height: 63.64%;
+  width: 8.2%;
+  top: 86.36%;
+  right: 24.42%;
+  bottom: -50%;
+  left: 67.38%;
+}
+.claritygridViewSolidIcon,
+.faSolidlistIcon {
+  position: absolute;
+  height: 27.27%;
+  width: 1.02%;
+  top: 40.91%;
+  right: 17.59%;
+  bottom: 31.82%;
+  left: 81.38%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.faSolidlistIcon {
+  right: 16.14%;
+  left: 82.84%;
+}
+.groupDiv6 {
+  position: absolute;
+  height: 56.82%;
+  width: 4.7%;
+  top: 79.55%;
+  right: 40.39%;
+  bottom: -36.36%;
+  left: 54.91%;
+}
+.akarIconschevronDown1 {
+  position: absolute;
+  height: 66.67%;
+  width: 16.22%;
+  top: 16.67%;
+  right: 0;
+  bottom: 16.67%;
+  left: 83.78%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.bestMatchDiv {
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 18px;
+  display: inline-block;
+}
+.groupDiv7,
+.groupDiv8 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.groupDiv7 {
+  height: 40.91%;
+  width: 6.32%;
+  top: 34.09%;
+  right: 25.36%;
+  bottom: 25%;
+  left: 68.32%;
+  font-size: var(--font-size-7xs);
+  color: var(--sub-text-color);
+}
+.groupDiv9 {
+  position: absolute;
+  height: 68.18%;
+  width: 13.83%;
+  top: 20.45%;
+  right: 0;
+  bottom: 11.36%;
+  left: 86.17%;
+}
+.pageSortBy {
+  position: absolute;
+  top: 535px;
+  left: 374px;
+  width: 1171px;
+  height: 44px;
+  font-size: var(--paragraph-text-size);
+  color: var(--sale-tage-coloe);
+  font-family: var(--paragraph-text);
+}
+.rectangleDiv6 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--bg-shade);
+}
+.myAccountDiv,
+.topCategoriesDiv {
+  position: absolute;
+  top: 32.99%;
+  left: 40.63%;
+  display: inline-block;
+}
+.myAccountDiv {
+  top: 32.78%;
+  left: 54.48%;
+}
+.allCategoriesDiv,
+.blogDiv1,
+.latestNewsDiv {
+  position: absolute;
+  top: 33.19%;
+  left: 67.03%;
+  display: inline-block;
+}
+.allCategoriesDiv,
+.latestNewsDiv {
+  top: 41.54%;
+}
+.allCategoriesDiv {
+  top: 49.9%;
+}
+.bookingHistoryDiv,
+.discountsDiv,
+.newestAdditionsDiv {
+  position: absolute;
+  top: 58.25%;
+  left: 67.03%;
+  display: inline-block;
+}
+.bookingHistoryDiv,
+.discountsDiv {
+  top: 41.13%;
+  left: 54.48%;
+}
+.bookingHistoryDiv {
+  top: 49.48%;
+}
+.aboutUsDiv,
+.blogDiv2,
+.contactUsDiv,
+.ordersHistoryDiv {
+  position: absolute;
+  top: 57.83%;
+  left: 54.48%;
+  display: inline-block;
+}
+.aboutUsDiv,
+.blogDiv2,
+.contactUsDiv {
+  top: 41.34%;
+  left: 40.63%;
+}
+.aboutUsDiv,
+.contactUsDiv {
+  top: 49.69%;
+}
+.contactUsDiv {
+  top: 58.04%;
+}
+.categoriesDiv,
+.myPageDiv,
+.mycribs,
+.pagesDiv2 {
+  position: absolute;
+  top: 19.83%;
+  left: 16.15%;
+  font-size: var(--font-size-14xl);
+  display: inline-block;
+  font-family: var(--font-montserrat);
+  color: var(--color-black);
+}
+.categoriesDiv,
+.myPageDiv,
+.pagesDiv2 {
+  top: 19.62%;
+  left: 40.63%;
+  font-size: var(--font-size-7xl);
+}
+.myPageDiv,
+.pagesDiv2 {
+  left: 54.53%;
+}
+.pagesDiv2 {
+  left: 67.03%;
+}
+.contactInfoDiv,
+.plot32ChurchRoadEntebbeUg {
+  position: absolute;
+  top: 48.64%;
+  left: 16.04%;
+  display: inline-block;
+}
+.plot32ChurchRoadEntebbeUg {
+  top: 54.7%;
+}
+.rectangleDiv7 {
+  position: absolute;
+  height: 9.19%;
+  width: 19.64%;
+  top: 34.24%;
+  right: 64.27%;
+  bottom: 56.58%;
+  left: 16.09%;
+  border-radius: var(--br-xs);
+  background-color: var(--white);
+  opacity: 0.45;
+}
+.enterEmailAddress {
+  position: absolute;
+  top: 37.16%;
+  left: 17.14%;
+  display: inline-block;
+}
+.rectangleDiv8 {
+  position: absolute;
+  height: 8.14%;
+  width: 7.03%;
+  top: 34.86%;
+  right: 64.38%;
+  bottom: 56.99%;
+  left: 28.59%;
+  border-radius: var(--br-xs);
+  background-color: var(--pink);
+}
+.signUpDiv {
+  position: absolute;
+  top: 37.16%;
+  left: 30.63%;
+  font-weight: 500;
+  font-family: var(--font-roboto);
+  color: var(--bg-shade);
+  display: inline-block;
+}
+.footerDiv1,
+.rectangleDiv9 {
+  position: absolute;
+  height: 90.04%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 9.96%;
+  left: 0;
+}
+.rectangleDiv9 {
+  height: 100%;
+  bottom: 0;
+  background-color: var(--color-gray-1200);
+}
+.aetotechsAllRightsReserve {
+  position: absolute;
+  top: 32.08%;
+  left: 19.64%;
+  font-weight: 600;
+  display: inline-block;
+}
+.groupIcon1 {
+  position: absolute;
+  height: 36.64%;
+  width: 4.17%;
+  top: 32.08%;
+  right: 30.36%;
+  bottom: 31.29%;
+  left: 65.47%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.footerDiv,
+.groupDiv10 {
+  position: absolute;
+  left: 0;
+}
+.groupDiv10 {
+  height: 9.96%;
+  width: 100%;
+  top: 90.04%;
+  right: 0;
+  bottom: 0;
+  color: var(--color-gray-2600);
+}
+.footerDiv {
+  top: 3094px;
+  width: 1920px;
+  height: 532px;
+  font-size: var(--paragraph-text-size);
+  color: var(--sub-text-color);
+  font-family: var(--paragraph-text);
+}
+.div3,
+.sofaB {
+  position: absolute;
+  display: inline-block;
+}
+.div3 {
+  top: 87.24px;
+  left: 567.63px;
+  font-size: var(--font-size-4xs);
+  color: var(--color-gray-3600);
+  width: 25.4px;
+  height: 13.25px;
+}
+.sofaB {
+  top: 50.8px;
+  left: 499.17px;
+  width: 44.17px;
+  height: 19.88px;
+}
+.rectangleDiv10 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--white);
+  box-shadow: 0 0 25px 5px rgba(246, 246, 253, 0.5);
+  width: 1141px;
+  height: 254px;
+}
+.rectangleIcon1 {
+  position: absolute;
+  top: 17.67px;
+  left: 19.88px;
+  width: 313.63px;
+  height: 217.56px;
+  object-fit: cover;
+}
+.groupIcon2 {
+  position: absolute;
+  top: 161.23px;
+  left: 336.83px;
+  width: 199.89px;
+  height: 89.45px;
+}
+.stMarysHostel {
+  position: absolute;
+  top: 50.8px;
+  left: 365.54px;
+  display: inline-block;
+}
+.ellipseIcon,
+.ellipseIcon1,
+.ellipseIcon2 {
+  position: absolute;
+  top: 54.11px;
+  left: 568.74px;
+  width: 12.15px;
+  height: 12.15px;
+}
+.ellipseIcon1,
+.ellipseIcon2 {
+  left: 586.41px;
+}
+.ellipseIcon2 {
+  left: 604.08px;
+}
+.antDesignstarFilledIcon,
+.antDesignstarFilledIcon1 {
+  position: absolute;
+  top: 85.03px;
+  left: 562.12px;
+  width: 13.25px;
+  height: 13.25px;
+  overflow: hidden;
+}
+.antDesignstarFilledIcon1 {
+  left: 578.69px;
+}
+.antDesignstarFilledIcon2,
+.antDesignstarFilledIcon3,
+.antDesignstarFilledIcon4 {
+  position: absolute;
+  top: 85.03px;
+  left: 594.15px;
+  width: 13.25px;
+  height: 13.25px;
+  overflow: hidden;
+}
+.antDesignstarFilledIcon3,
+.antDesignstarFilledIcon4 {
+  left: 609.61px;
+}
+.antDesignstarFilledIcon4 {
+  left: 625.07px;
+}
+.loremIpsumDolorSitAmetCo,
+.single550000 {
+  position: absolute;
+  left: 365.54px;
+  display: inline-block;
+}
+.loremIpsumDolorSitAmetCo {
+  top: 111.54px;
+  font-size: var(--font-size-2xl);
+  line-height: 30.92px;
+  font-family: var(--paragraph-text);
+  color: var(--color-gray-2900);
+  width: 591.93px;
+  height: 46.38px;
+}
+.single550000 {
+  top: 85.03px;
+  font-size: var(--font-size-sm);
+}
+.groupDiv12 {
+  position: absolute;
+  top: 656px;
+  left: 374px;
+  width: 1141px;
+  height: 254px;
+  cursor: pointer;
+}
+.armB {
+  position: absolute;
+  top: 50.8px;
+  left: 454.99px;
+  display: inline-block;
+  width: 37.55px;
+  height: 19.88px;
+}
+.antDesignstarFilledIcon5,
+.antDesignstarFilledIcon6 {
+  position: absolute;
+  top: 85.03px;
+  left: 559.12px;
+  width: 13.25px;
+  height: 13.25px;
+  overflow: hidden;
+}
+.antDesignstarFilledIcon6 {
+  left: 575.69px;
+}
+.antDesignstarFilledIcon7,
+.antDesignstarFilledIcon8,
+.antDesignstarFilledIcon9 {
+  position: absolute;
+  top: 85.03px;
+  left: 591.15px;
+  width: 13.25px;
+  height: 13.25px;
+  overflow: hidden;
+}
+.antDesignstarFilledIcon8,
+.antDesignstarFilledIcon9 {
+  left: 606.61px;
+}
+.antDesignstarFilledIcon9 {
+  left: 622.07px;
+}
+.groupDiv13,
+.groupDiv14 {
+  position: absolute;
+  top: 943px;
+  left: 374px;
+  width: 1141px;
+  height: 254px;
+}
+.groupDiv14 {
+  top: 1231px;
+}
+.antDesignstarFilledIcon15,
+.antDesignstarFilledIcon16 {
+  position: absolute;
+  top: 85.03px;
+  left: 555.12px;
+  width: 13.25px;
+  height: 13.25px;
+  overflow: hidden;
+}
+.antDesignstarFilledIcon16 {
+  left: 571.69px;
+}
+.antDesignstarFilledIcon17,
+.antDesignstarFilledIcon18,
+.antDesignstarFilledIcon19 {
+  position: absolute;
+  top: 85.03px;
+  left: 587.15px;
+  width: 13.25px;
+  height: 13.25px;
+  overflow: hidden;
+}
+.antDesignstarFilledIcon18,
+.antDesignstarFilledIcon19 {
+  left: 602.61px;
+}
+.antDesignstarFilledIcon19 {
+  left: 618.07px;
+}
+.groupDiv15,
+.groupDiv16,
+.groupDiv17 {
+  position: absolute;
+  top: 1519px;
+  left: 371px;
+  width: 1141px;
+  height: 254px;
+}
+.groupDiv16,
+.groupDiv17 {
+  top: 1806px;
+}
+.groupDiv17 {
+  top: 2093px;
+  left: 378px;
+}
+.antDesignstarFilledIcon30,
+.antDesignstarFilledIcon31 {
+  position: absolute;
+  top: 85.03px;
+  left: 563.12px;
+  width: 13.25px;
+  height: 13.25px;
+  overflow: hidden;
+}
+.antDesignstarFilledIcon31 {
+  left: 579.69px;
+}
+.antDesignstarFilledIcon32,
+.antDesignstarFilledIcon33,
+.antDesignstarFilledIcon34 {
+  position: absolute;
+  top: 85.03px;
+  left: 595.15px;
+  width: 13.25px;
+  height: 13.25px;
+  overflow: hidden;
+}
+.antDesignstarFilledIcon33,
+.antDesignstarFilledIcon34 {
+  left: 610.61px;
+}
+.antDesignstarFilledIcon34 {
+  left: 626.07px;
+}
+.groupDiv18,
+.image1174Icon {
+  position: absolute;
+  top: 2381px;
+  left: 378px;
+  width: 1141px;
+  height: 254px;
+}
+.image1174Icon {
+  top: 2869px;
+  left: 508px;
+  width: 904px;
+  height: 93px;
+  object-fit: cover;
+}
+.groupDiv20,
+.groupIcon9 {
+  position: absolute;
+  width: 1920px;
+  height: 53px;
+  display: none;
+}
+.groupIcon9 {
+  width: 80px;
+  height: 19.42px;
+}
+.footerDiv2,
+.groupDiv19 {
+  position: absolute;
+  top: 90.04%;
+  left: 0;
+  width: 0;
+  height: 0;
+  color: var(--color-gray-2600);
+}
+.footerDiv2 {
+  top: 2997px;
+  left: -7px;
+  width: 1920px;
+  height: 532px;
+  font-size: var(--paragraph-text-size);
+  color: var(--sub-text-color);
+  font-family: var(--paragraph-text);
+}
+.shopListDiv {
+  position: relative;
+  background-color: var(--white);
+  width: 100%;
+  height: 3626px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-indigo-600);
+  font-family: var(--font-montserrat);
+}

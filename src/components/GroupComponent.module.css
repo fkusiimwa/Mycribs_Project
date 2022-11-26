@@ -1,0 +1,181 @@
+.comfortHandyCraft,
+.div,
+.div1 {
+  position: absolute;
+  display: inline-block;
+}
+.comfortHandyCraft {
+  top: 93.32%;
+  left: 0;
+  font-size: var(--paragraph-text-size);
+}
+.div,
+.div1 {
+  top: 93.64%;
+  left: 71.08%;
+}
+.div1 {
+  top: 94.27%;
+  left: 85.41%;
+  font-size: var(--font-size-7xs);
+  text-decoration: line-through;
+  color: var(--color-red);
+  display: none;
+}
+.lineIcon,
+.vectorIcon {
+  position: absolute;
+  left: 0;
+}
+.lineIcon {
+  height: 0.97%;
+  width: 42.71%;
+  top: 99.03%;
+  right: 57.29%;
+  bottom: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vectorIcon {
+  top: 0;
+  width: 84.87px;
+  height: 56.73px;
+}
+.saleDiv {
+  position: absolute;
+  top: 25.71px;
+  left: 27px;
+  display: inline-block;
+  transform: rotate(-18.12deg);
+  transform-origin: 0 0;
+}
+.groupDiv1 {
+  position: absolute;
+  top: 25px;
+  left: 18px;
+  width: 84.87px;
+  height: 56.73px;
+  display: none;
+}
+.uilheartAltIcon,
+.uilsearchPlusIcon {
+  position: absolute;
+  top: 193px;
+  left: 22px;
+  width: 17px;
+  height: 17px;
+  overflow: hidden;
+  display: none;
+}
+.uilsearchPlusIcon {
+  top: 224px;
+  left: 24px;
+  width: 15px;
+  height: 15px;
+}
+.groupIcon {
+  position: absolute;
+  top: 146px;
+  left: 15px;
+  width: 30px;
+  height: 30px;
+  display: none;
+}
+.frameDiv,
+.image1168Icon {
+  position: absolute;
+  overflow: hidden;
+}
+.image1168Icon {
+  height: 82.31%;
+  width: 61.62%;
+  top: 14.44%;
+  right: 19.19%;
+  bottom: 3.25%;
+  left: 19.19%;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  display: none;
+}
+.frameDiv {
+  height: 88.22%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 11.78%;
+  left: 0;
+  border-radius: var(--br-2xl);
+  background-image: url(../../public/frame-1@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  color: var(--bg-shade);
+}
+.image1166Icon,
+.image15Icon,
+.image9Icon {
+  position: absolute;
+  top: 25px;
+  left: 68px;
+  width: 245px;
+  height: 245px;
+  object-fit: cover;
+  display: none;
+}
+.image1166Icon,
+.image9Icon {
+  top: 33px;
+  left: 73px;
+  width: 223px;
+  height: 229px;
+}
+.image9Icon {
+  height: 85.36%;
+  width: 74.86%;
+  top: 1.59%;
+  right: 11.89%;
+  bottom: 13.05%;
+  left: 13.24%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.image23Icon,
+.image32Icon,
+.image3Icon {
+  position: absolute;
+  top: 0;
+  left: 54px;
+  width: 267px;
+  height: 277px;
+  object-fit: cover;
+  display: none;
+}
+.image32Icon,
+.image3Icon {
+  top: 13px;
+  left: 36px;
+  width: 303px;
+  height: 264px;
+}
+.image3Icon {
+  top: 16px;
+  left: 5px;
+  width: 360px;
+  height: 261px;
+}
+.groupDiv {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  text-align: left;
+  font-size: var(--font-size-3xs);
+  color: var(--text);
+  font-family: var(--font-montserrat);
+}

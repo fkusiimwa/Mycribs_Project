@@ -1,0 +1,881 @@
+.rectangleDiv {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--bg-shade);
+}
+.myAccountDiv,
+.topCategoriesDiv {
+  position: absolute;
+  top: 32.99%;
+  left: 40.63%;
+  display: inline-block;
+}
+.myAccountDiv {
+  top: 32.78%;
+  left: 54.48%;
+}
+.allCategoriesDiv,
+.blogDiv,
+.latestNewsDiv {
+  position: absolute;
+  top: 33.19%;
+  left: 67.03%;
+  display: inline-block;
+}
+.allCategoriesDiv,
+.latestNewsDiv {
+  top: 41.54%;
+}
+.allCategoriesDiv {
+  top: 49.9%;
+}
+.bookingHistoryDiv,
+.discountsDiv,
+.newestAdditionsDiv {
+  position: absolute;
+  top: 58.25%;
+  left: 67.03%;
+  display: inline-block;
+}
+.bookingHistoryDiv,
+.discountsDiv {
+  top: 41.13%;
+  left: 54.48%;
+}
+.bookingHistoryDiv {
+  top: 49.48%;
+}
+.aboutUsDiv,
+.blogDiv1,
+.contactUsDiv,
+.ordersHistoryDiv {
+  position: absolute;
+  top: 57.83%;
+  left: 54.48%;
+  display: inline-block;
+}
+.aboutUsDiv,
+.blogDiv1,
+.contactUsDiv {
+  top: 41.34%;
+  left: 40.63%;
+}
+.aboutUsDiv,
+.contactUsDiv {
+  top: 49.69%;
+}
+.contactUsDiv {
+  top: 58.04%;
+}
+.categoriesDiv,
+.myPageDiv,
+.mycribs,
+.pagesDiv {
+  position: absolute;
+  top: 19.83%;
+  left: 16.15%;
+  font-size: var(--font-size-14xl);
+  display: inline-block;
+  font-family: var(--font-montserrat);
+  color: var(--color-black);
+}
+.categoriesDiv,
+.myPageDiv,
+.pagesDiv {
+  top: 19.62%;
+  left: 40.63%;
+  font-size: var(--font-size-7xl);
+}
+.myPageDiv,
+.pagesDiv {
+  left: 54.53%;
+}
+.pagesDiv {
+  left: 67.03%;
+}
+.contactInfoDiv,
+.plot32ChurchRoadEntebbeUg {
+  position: absolute;
+  top: 48.64%;
+  left: 16.04%;
+  display: inline-block;
+}
+.plot32ChurchRoadEntebbeUg {
+  top: 54.7%;
+}
+.rectangleDiv1 {
+  position: absolute;
+  height: 9.19%;
+  width: 19.64%;
+  top: 34.24%;
+  right: 64.27%;
+  bottom: 56.58%;
+  left: 16.09%;
+  border-radius: var(--br-xs);
+  background-color: var(--white);
+  opacity: 0.45;
+}
+.enterEmailAddress {
+  position: absolute;
+  top: 37.16%;
+  left: 17.14%;
+  display: inline-block;
+}
+.rectangleDiv2 {
+  position: absolute;
+  height: 8.14%;
+  width: 7.03%;
+  top: 34.86%;
+  right: 64.38%;
+  bottom: 56.99%;
+  left: 28.59%;
+  border-radius: var(--br-xs);
+  background-color: var(--pink);
+}
+.signUpDiv {
+  position: absolute;
+  top: 37.16%;
+  left: 30.63%;
+  font-weight: 500;
+  font-family: var(--font-roboto);
+  color: var(--bg-shade);
+  display: inline-block;
+}
+.footerDiv1,
+.rectangleDiv3 {
+  position: absolute;
+  height: 90.04%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 9.96%;
+  left: 0;
+}
+.rectangleDiv3 {
+  height: 100%;
+  bottom: 0;
+  background-color: var(--color-gray-1200);
+}
+.aetotechsAllRightsReserve {
+  position: absolute;
+  top: 32.08%;
+  left: 19.64%;
+  font-weight: 600;
+  display: inline-block;
+}
+.groupDiv1,
+.groupIcon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.groupIcon {
+  height: 36.64%;
+  width: 4.17%;
+  top: 32.08%;
+  right: 30.36%;
+  bottom: 31.29%;
+  left: 65.47%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.footerDiv,
+.groupDiv {
+  position: absolute;
+  left: 0;
+}
+.groupDiv {
+  height: 9.96%;
+  width: 100%;
+  top: 90.04%;
+  right: 0;
+  bottom: 0;
+  color: var(--color-gray-2600);
+}
+.footerDiv {
+  top: 1807px;
+  width: 1920px;
+  height: 532px;
+  font-size: var(--paragraph-text-size);
+  color: var(--sub-text-color);
+  font-family: var(--paragraph-text);
+}
+.groupIcon1 {
+  position: absolute;
+  top: 17px;
+  left: 1257px;
+  width: 80px;
+  height: 19.42px;
+}
+.groupDiv2,
+.rectangleDiv5 {
+  position: absolute;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.groupDiv2 {
+  height: 2.27%;
+  top: 97.73%;
+  font-size: var(--paragraph-text-size);
+  color: var(--color-gray-2600);
+  font-family: var(--paragraph-text);
+}
+.rectangleDiv5 {
+  height: 100%;
+  top: 0;
+  background-color: var(--violet);
+}
+.englishDiv,
+.uSDDiv {
+  position: absolute;
+  top: 31.82%;
+  left: 62.08%;
+  display: inline-block;
+}
+.uSDDiv {
+  left: 66.67%;
+}
+.div,
+.loginDiv,
+.mhhasanulgmailcomDiv,
+.wishlistDiv {
+  position: absolute;
+  top: 31.82%;
+  left: 70.1%;
+  display: inline-block;
+}
+.div,
+.mhhasanulgmailcomDiv,
+.wishlistDiv {
+  left: 74.01%;
+}
+.div,
+.mhhasanulgmailcomDiv {
+  top: 29.55%;
+  left: 20.99%;
+}
+.div {
+  top: 31.82%;
+  left: 33.85%;
+}
+.bxbxPhoneCallIcon,
+.groupIcon2,
+.uilenvelopeAltIcon {
+  position: absolute;
+  height: 36.36%;
+  width: 0.83%;
+  top: 31.82%;
+  right: 79.53%;
+  bottom: 31.82%;
+  left: 19.64%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.bxbxPhoneCallIcon,
+.groupIcon2 {
+  right: 66.77%;
+  left: 32.4%;
+}
+.groupIcon2 {
+  height: 54.55%;
+  width: 15.68%;
+  top: 20.45%;
+  right: 19.38%;
+  bottom: 25%;
+  left: 64.95%;
+}
+.headingBarDiv {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1920px;
+  height: 44px;
+  font-size: var(--paragraph-text-size);
+  color: var(--color-gray-700);
+}
+.blogDiv2,
+.contactDiv,
+.pagesDiv1,
+.productsDiv,
+.shopDiv {
+  position: absolute;
+  top: 25%;
+  left: 22.43%;
+  line-height: 20px;
+  display: inline-block;
+}
+.blogDiv2,
+.contactDiv,
+.productsDiv,
+.shopDiv {
+  left: 28.89%;
+}
+.blogDiv2,
+.contactDiv,
+.shopDiv {
+  left: 37.3%;
+}
+.contactDiv,
+.shopDiv {
+  left: 42.99%;
+}
+.contactDiv {
+  left: 49.02%;
+}
+.rectangleDiv6 {
+  width: 100%;
+  left: 0;
+  border: 2px solid var(--color-gray-1300);
+  box-sizing: border-box;
+}
+.groupDiv4,
+.groupDiv5,
+.rectangleDiv6,
+.rectangleDiv7 {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+.rectangleDiv7 {
+  width: 100%;
+  left: 0;
+  background-color: var(--pink);
+}
+.groupDiv4,
+.groupDiv5 {
+  width: 16.09%;
+  left: 83.91%;
+}
+.groupDiv4 {
+  width: 26.93%;
+  left: 73.07%;
+}
+.hektoB,
+.homeDiv {
+  position: absolute;
+  left: 0;
+  display: inline-block;
+}
+.hektoB {
+  top: 7.5%;
+  font-size: var(--font-size-11xl);
+  font-family: var(--font-montserrat);
+}
+.homeDiv {
+  top: 0;
+  line-height: 20px;
+}
+.groupDiv6 {
+  position: absolute;
+  height: 50%;
+  width: 3.65%;
+  top: 25%;
+  right: 80.54%;
+  bottom: 25%;
+  left: 15.8%;
+  color: var(--pink);
+}
+.akarIconschevronDown,
+.uilsearchIcon {
+  position: absolute;
+  height: 30%;
+  width: 1.02%;
+  top: 35%;
+  right: 79.35%;
+  bottom: 35%;
+  left: 19.63%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.uilsearchIcon {
+  height: 60%;
+  width: 2.04%;
+  top: 20%;
+  right: 1.1%;
+  bottom: 20%;
+  left: 96.86%;
+}
+.navBarDiv {
+  position: absolute;
+  top: 63px;
+  left: 371px;
+  width: 1177px;
+  height: 40px;
+  font-size: var(--paragraph-text-size);
+  color: var(--color-indigo-1200);
+  font-family: var(--paragraph-text);
+}
+.rectangleDiv8 {
+  position: absolute;
+  top: 123px;
+  left: 0;
+  background-color: var(--color-gray-300);
+  width: 1920px;
+  height: 285px;
+  opacity: 0.5;
+}
+.signupPageB {
+  position: absolute;
+  top: 248px;
+  left: 362px;
+  font-size: var(--font-size-13xl);
+  display: inline-block;
+  color: var(--color-indigo-900);
+  text-align: center;
+}
+.rectangleIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 770px;
+  height: 920px;
+}
+.keepMeUpToDateOnNewsAnd {
+  position: absolute;
+  top: 127px;
+  left: 17px;
+  font-size: var(--font-size-7xs);
+  letter-spacing: 0.02em;
+  font-weight: 500;
+  color: var(--color-gray-3300);
+  display: inline-block;
+}
+.emailOrMobilePhoneNumber,
+.firstNameOptional {
+  position: absolute;
+  top: 311px;
+  left: 0;
+  font-weight: 500;
+  display: inline-block;
+}
+.emailOrMobilePhoneNumber {
+  top: 65px;
+  letter-spacing: 0.02em;
+  font-weight: 600;
+}
+.addressDiv,
+.alreadyHaveAnAccount {
+  position: absolute;
+  font-weight: 500;
+  display: inline-block;
+}
+.alreadyHaveAnAccount {
+  top: 0;
+  left: 507px;
+  letter-spacing: 0.01em;
+}
+.addressDiv {
+  top: 383px;
+  left: 0;
+}
+.appaetnentmentsuitetcOptDiv,
+.cityDiv,
+.countryDiv,
+.lastNameDiv,
+.nINNumberDiv {
+  position: absolute;
+  top: 455px;
+  left: 0;
+  font-weight: 500;
+  display: inline-block;
+}
+.cityDiv,
+.countryDiv,
+.lastNameDiv,
+.nINNumberDiv {
+  top: 527px;
+}
+.countryDiv,
+.lastNameDiv,
+.nINNumberDiv {
+  top: 599px;
+}
+.lastNameDiv,
+.nINNumberDiv {
+  left: 368px;
+}
+.lastNameDiv {
+  top: 311px;
+}
+.uilcheckIcon {
+  position: absolute;
+  top: 131px;
+  left: 1px;
+  border-radius: var(--br-4xs);
+  width: 8px;
+  height: 8px;
+  overflow: hidden;
+}
+.lineDiv,
+.lineDiv1,
+.lineDiv2,
+.lineDiv3,
+.lineDiv4,
+.lineDiv5 {
+  position: absolute;
+  top: 629px;
+  left: -1px;
+  border-top: 2px solid var(--color-gray-1900);
+  box-sizing: border-box;
+  width: 340px;
+  height: 2px;
+}
+.lineDiv1,
+.lineDiv2,
+.lineDiv3,
+.lineDiv4,
+.lineDiv5 {
+  top: 413px;
+  width: 710px;
+}
+.lineDiv2,
+.lineDiv3,
+.lineDiv4,
+.lineDiv5 {
+  top: 94px;
+  width: 700px;
+}
+.lineDiv3,
+.lineDiv4,
+.lineDiv5 {
+  top: 485px;
+  width: 710px;
+}
+.lineDiv4,
+.lineDiv5 {
+  top: 557px;
+}
+.lineDiv5 {
+  top: 341px;
+  left: 367px;
+  width: 338px;
+}
+.rectangleDiv9 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--pink);
+  width: 182px;
+  height: 44px;
+}
+.continueShippingDiv {
+  position: absolute;
+  top: 14px;
+  left: 22px;
+  display: inline-block;
+}
+.groupDiv9,
+.shippingAddressB {
+  left: 0;
+  font-family: var(--font-montserrat);
+}
+.groupDiv9 {
+  position: absolute;
+  top: 747px;
+  width: 182px;
+  height: 44px;
+  font-size: var(--paragraph-text-size);
+  color: var(--white);
+}
+.shippingAddressB {
+  top: 250px;
+  font-size: var(--font-size-3xl);
+  color: var(--color-indigo-400);
+}
+.contactInformationB,
+.logInDiv,
+.shippingAddressB {
+  position: absolute;
+  display: inline-block;
+}
+.contactInformationB {
+  top: 5px;
+  left: 0;
+  font-size: var(--font-size-3xl);
+  font-family: var(--font-montserrat);
+  color: var(--color-indigo-400);
+}
+.logInDiv {
+  top: 0;
+  left: 671px;
+  letter-spacing: 0.01em;
+  font-weight: 500;
+}
+.groupDiv7,
+.groupDiv8 {
+  position: absolute;
+  top: 64px;
+  left: 30px;
+  width: 709px;
+  height: 791px;
+}
+.groupDiv7 {
+  top: 561px;
+  left: 375px;
+  width: 770px;
+  height: 920px;
+  color: var(--color-gray-1700);
+  font-family: var(--paragraph-text);
+}
+.lineDiv6,
+.lineDiv7 {
+  position: absolute;
+  top: 968px;
+  left: 406px;
+  border-top: 2px solid var(--color-gray-1900);
+  box-sizing: border-box;
+  width: 338px;
+  height: 2px;
+}
+.lineDiv7 {
+  top: 1256px;
+  left: 772px;
+  width: 340px;
+}
+.rectangleDiv10 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xs);
+  background-color: var(--color-gray-600);
+  width: 371px;
+  height: 284px;
+}
+.shippingTaxesCalculatedAt {
+  position: absolute;
+  top: 163px;
+  left: 45px;
+  font-size: var(--font-size-7xs);
+  color: var(--color-gray-3300);
+  display: inline-block;
+}
+.subtotalsDiv {
+  top: 34px;
+  left: 23px;
+  font-weight: 600;
+}
+.div1,
+.div2,
+.subtotalsDiv,
+.totalsDiv {
+  position: absolute;
+  display: inline-block;
+}
+.totalsDiv {
+  top: 103px;
+  left: 29px;
+  font-weight: 500;
+}
+.div1,
+.div2 {
+  top: 36px;
+  left: 280px;
+  font-size: var(--paragraph-text-size);
+  color: var(--color-indigo-700);
+}
+.div2 {
+  top: 105px;
+  left: 287px;
+}
+.rectangleDiv11 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xs);
+  background-color: var(--color-green-200);
+  width: 312px;
+  height: 40px;
+}
+.proceedToCheckout {
+  position: absolute;
+  top: 11px;
+  left: 90px;
+  display: inline-block;
+}
+.groupDiv12 {
+  position: absolute;
+  top: 212px;
+  left: 29px;
+  width: 312px;
+  height: 40px;
+  font-size: var(--font-size-3xs);
+  color: var(--white);
+}
+.uilcheckIcon1 {
+  position: absolute;
+  top: 167px;
+  left: 30px;
+  border-radius: var(--br-xs);
+  width: 8px;
+  height: 8px;
+  overflow: hidden;
+}
+.groupDiv11 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 371px;
+  height: 284px;
+}
+.lineDiv8,
+.lineDiv9 {
+  position: absolute;
+  top: 68px;
+  left: 25px;
+  border-top: 2px solid var(--color-gray-1000);
+  box-sizing: border-box;
+  width: 312px;
+  height: 2px;
+}
+.lineDiv9 {
+  top: 135px;
+}
+.groupDiv10,
+.personalInformationDiv,
+.signUpB {
+  position: absolute;
+  color: var(--color-indigo-400);
+}
+.groupDiv10 {
+  top: 1165px;
+  left: 1175px;
+  width: 371px;
+  height: 284px;
+  font-size: var(--font-size-3xl);
+  font-family: var(--paragraph-text);
+}
+.personalInformationDiv,
+.signUpB {
+  top: 482px;
+  left: 375px;
+  font-size: var(--font-size-8xl);
+  display: inline-block;
+}
+.personalInformationDiv {
+  top: 522px;
+  font-size: var(--font-size-7xs);
+  font-family: var(--paragraph-text);
+}
+.lineDiv10 {
+  position: absolute;
+  top: 101.5px;
+  left: -0.5px;
+  border-top: 1px solid var(--color-gray-1400);
+  box-sizing: border-box;
+  width: 370px;
+  height: 1px;
+}
+.div3,
+.utDiamConsequat {
+  position: absolute;
+  top: 36px;
+  left: 326px;
+  color: var(--color-indigo-700);
+  display: inline-block;
+}
+.utDiamConsequat {
+  top: 10px;
+  left: 100px;
+  color: var(--color-black);
+}
+.colorDiv {
+  top: 32px;
+  left: 98px;
+  font-size: var(--font-size-7xs);
+}
+.brownDiv,
+.colorDiv,
+.sizeDiv,
+.xLDiv {
+  position: absolute;
+  display: inline-block;
+}
+.sizeDiv {
+  top: 53px;
+  left: 98px;
+  font-size: var(--font-size-7xs);
+}
+.brownDiv,
+.xLDiv {
+  top: 30px;
+  left: 130px;
+}
+.xLDiv {
+  top: 51px;
+  left: 122px;
+}
+.rectangleIcon1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xs);
+  width: 83px;
+  height: 87px;
+  object-fit: cover;
+}
+.groupDiv13 {
+  position: absolute;
+  top: 557px;
+  left: 1175px;
+  width: 372px;
+  height: 102px;
+}
+.groupDiv14,
+.groupDiv15,
+.groupDiv16,
+.groupDiv17,
+.groupDiv18 {
+  position: absolute;
+  top: 673px;
+  left: 1175px;
+  width: 372px;
+  height: 102px;
+}
+.groupDiv15,
+.groupDiv16,
+.groupDiv17,
+.groupDiv18 {
+  top: 789px;
+}
+.groupDiv16,
+.groupDiv17,
+.groupDiv18 {
+  top: 905px;
+}
+.groupDiv17,
+.groupDiv18 {
+  top: 0;
+  left: 0;
+}
+.groupDiv17 {
+  top: 1021px;
+  left: 1175px;
+}
+.hectoDemoDiv {
+  position: relative;
+  background-color: var(--white);
+  width: 100%;
+  height: 2339px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-3xs);
+  color: var(--color-gray-2400);
+  font-family: var(--font-montserrat);
+}
